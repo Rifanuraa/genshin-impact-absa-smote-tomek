@@ -1,0 +1,6927 @@
+{
+  "protocol": "balance_then_kfold",
+  "k_folds": 10,
+  "countvec_config": {
+    "analyzer": "word",
+    "min_df": 2,
+    "max_df": 0.95,
+    "ngram_min": 1,
+    "ngram_max": 1,
+    "alpha": 1.0,
+    "chi2_k": null
+  },
+  "aspects": {
+    "gs": {
+      "label": "Gameplay & Storyline",
+      "n_total": 636,
+      "n_folds": 10,
+      "protocol": "balance_then_kfold",
+      "best_scenario": "tomek",
+      "best_from_tuning": "tomek",
+      "best_f1": 0.806,
+      "scenarios": {
+        "none": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "none",
+          "metrics": {
+            "accuracy": 0.8019,
+            "precision": 0.7987,
+            "recall": 0.8019,
+            "f1": 0.7963
+          },
+          "metrics_std": {
+            "accuracy": 0.0608,
+            "precision": 0.06,
+            "recall": 0.0608,
+            "f1": 0.059
+          },
+          "train_metrics": {
+            "accuracy": 0.917,
+            "precision": 0.9159,
+            "recall": 0.917,
+            "f1": 0.9133
+          },
+          "train_metrics_std": {
+            "accuracy": 0.005,
+            "precision": 0.0056,
+            "recall": 0.005,
+            "f1": 0.0052
+          },
+          "gap": {
+            "accuracy": 0.1151,
+            "precision": 0.1172,
+            "recall": 0.1151,
+            "f1": 0.117
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7344,
+              "precision": 0.7134,
+              "recall": 0.7344,
+              "f1": 0.7223
+            },
+            {
+              "accuracy": 0.875,
+              "precision": 0.8702,
+              "recall": 0.875,
+              "f1": 0.8714
+            },
+            {
+              "accuracy": 0.8281,
+              "precision": 0.8141,
+              "recall": 0.8281,
+              "f1": 0.8051
+            },
+            {
+              "accuracy": 0.7188,
+              "precision": 0.7622,
+              "recall": 0.7188,
+              "f1": 0.7346
+            },
+            {
+              "accuracy": 0.8906,
+              "precision": 0.8882,
+              "recall": 0.8906,
+              "f1": 0.8891
+            },
+            {
+              "accuracy": 0.7656,
+              "precision": 0.7712,
+              "recall": 0.7656,
+              "f1": 0.7682
+            },
+            {
+              "accuracy": 0.7619,
+              "precision": 0.7442,
+              "recall": 0.7619,
+              "f1": 0.7512
+            },
+            {
+              "accuracy": 0.7778,
+              "precision": 0.7778,
+              "recall": 0.7778,
+              "f1": 0.7778
+            },
+            {
+              "accuracy": 0.7778,
+              "precision": 0.7568,
+              "recall": 0.7778,
+              "f1": 0.7636
+            },
+            {
+              "accuracy": 0.8889,
+              "precision": 0.8889,
+              "recall": 0.8889,
+              "f1": 0.8795
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.9178,
+              "precision": 0.9165,
+              "recall": 0.9178,
+              "f1": 0.9145
+            },
+            {
+              "accuracy": 0.9108,
+              "precision": 0.9091,
+              "recall": 0.9108,
+              "f1": 0.9068
+            },
+            {
+              "accuracy": 0.9161,
+              "precision": 0.9151,
+              "recall": 0.9161,
+              "f1": 0.9122
+            },
+            {
+              "accuracy": 0.9178,
+              "precision": 0.9165,
+              "recall": 0.9178,
+              "f1": 0.9145
+            },
+            {
+              "accuracy": 0.9161,
+              "precision": 0.9151,
+              "recall": 0.9161,
+              "f1": 0.9122
+            },
+            {
+              "accuracy": 0.9213,
+              "precision": 0.9217,
+              "recall": 0.9213,
+              "f1": 0.9171
+            },
+            {
+              "accuracy": 0.9215,
+              "precision": 0.9201,
+              "recall": 0.9215,
+              "f1": 0.9185
+            },
+            {
+              "accuracy": 0.9127,
+              "precision": 0.9113,
+              "recall": 0.9127,
+              "f1": 0.9087
+            },
+            {
+              "accuracy": 0.9267,
+              "precision": 0.9269,
+              "recall": 0.9267,
+              "f1": 0.9233
+            },
+            {
+              "accuracy": 0.9092,
+              "precision": 0.9072,
+              "recall": 0.9092,
+              "f1": 0.9054
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                4,
+                10
+              ],
+              [
+                7,
+                43
+              ]
+            ],
+            [
+              [
+                9,
+                5
+              ],
+              [
+                3,
+                47
+              ]
+            ],
+            [
+              [
+                5,
+                9
+              ],
+              [
+                2,
+                48
+              ]
+            ],
+            [
+              [
+                8,
+                6
+              ],
+              [
+                12,
+                38
+              ]
+            ],
+            [
+              [
+                10,
+                4
+              ],
+              [
+                3,
+                47
+              ]
+            ],
+            [
+              [
+                8,
+                7
+              ],
+              [
+                8,
+                41
+              ]
+            ],
+            [
+              [
+                5,
+                9
+              ],
+              [
+                6,
+                43
+              ]
+            ],
+            [
+              [
+                7,
+                7
+              ],
+              [
+                7,
+                42
+              ]
+            ],
+            [
+              [
+                5,
+                9
+              ],
+              [
+                5,
+                44
+              ]
+            ],
+            [
+              [
+                8,
+                6
+              ],
+              [
+                1,
+                48
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                91,
+                36
+              ],
+              [
+                11,
+                434
+              ]
+            ],
+            [
+              [
+                88,
+                39
+              ],
+              [
+                12,
+                433
+              ]
+            ],
+            [
+              [
+                89,
+                38
+              ],
+              [
+                10,
+                435
+              ]
+            ],
+            [
+              [
+                91,
+                36
+              ],
+              [
+                11,
+                434
+              ]
+            ],
+            [
+              [
+                89,
+                38
+              ],
+              [
+                10,
+                435
+              ]
+            ],
+            [
+              [
+                88,
+                38
+              ],
+              [
+                7,
+                439
+              ]
+            ],
+            [
+              [
+                93,
+                34
+              ],
+              [
+                11,
+                435
+              ]
+            ],
+            [
+              [
+                88,
+                39
+              ],
+              [
+                11,
+                435
+              ]
+            ],
+            [
+              [
+                92,
+                35
+              ],
+              [
+                7,
+                439
+              ]
+            ],
+            [
+              [
+                88,
+                39
+              ],
+              [
+                13,
+                433
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 141,
+            "1": 495
+          },
+          "dist_after": {
+            "-1": 141,
+            "1": 495
+          },
+          "n_before": 636,
+          "n_after": 636,
+          "vocab_size": 631,
+          "report": {
+            "Negatif": {
+              "precision": 0.5609756097560976,
+              "recall": 0.48936170212765956,
+              "f1-score": 0.5227272727272727,
+              "support": 141.0
+            },
+            "Positif": {
+              "precision": 0.8596491228070176,
+              "recall": 0.8909090909090909,
+              "f1-score": 0.875,
+              "support": 495.0
+            },
+            "accuracy": 0.8018867924528302,
+            "macro avg": {
+              "precision": 0.7103123662815576,
+              "recall": 0.6901353965183752,
+              "f1-score": 0.6988636363636364,
+              "support": 636.0
+            },
+            "weighted avg": {
+              "precision": 0.793433768498559,
+              "recall": 0.8018867924528302,
+              "f1-score": 0.7969018010291595,
+              "support": 636.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              69,
+              72
+            ],
+            [
+              54,
+              441
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              897,
+              372
+            ],
+            [
+              103,
+              4352
+            ]
+          ]
+        },
+        "smote": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote",
+          "metrics": {
+            "accuracy": 0.7152,
+            "precision": 0.7244,
+            "recall": 0.7152,
+            "f1": 0.7101
+          },
+          "metrics_std": {
+            "accuracy": 0.083,
+            "precision": 0.0764,
+            "recall": 0.083,
+            "f1": 0.0885
+          },
+          "train_metrics": {
+            "accuracy": 0.8092,
+            "precision": 0.823,
+            "recall": 0.8092,
+            "f1": 0.8056
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0739,
+            "precision": 0.0606,
+            "recall": 0.0739,
+            "f1": 0.0775
+          },
+          "gap": {
+            "accuracy": 0.094,
+            "precision": 0.0986,
+            "recall": 0.094,
+            "f1": 0.0955
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.798,
+              "precision": 0.7985,
+              "recall": 0.798,
+              "f1": 0.7979
+            },
+            {
+              "accuracy": 0.8283,
+              "precision": 0.8285,
+              "recall": 0.8283,
+              "f1": 0.8283
+            },
+            {
+              "accuracy": 0.798,
+              "precision": 0.8057,
+              "recall": 0.798,
+              "f1": 0.7965
+            },
+            {
+              "accuracy": 0.7677,
+              "precision": 0.7735,
+              "recall": 0.7677,
+              "f1": 0.7667
+            },
+            {
+              "accuracy": 0.7576,
+              "precision": 0.7581,
+              "recall": 0.7576,
+              "f1": 0.7575
+            },
+            {
+              "accuracy": 0.7071,
+              "precision": 0.7185,
+              "recall": 0.7071,
+              "f1": 0.7037
+            },
+            {
+              "accuracy": 0.596,
+              "precision": 0.6055,
+              "recall": 0.596,
+              "f1": 0.5883
+            },
+            {
+              "accuracy": 0.6263,
+              "precision": 0.6496,
+              "recall": 0.6263,
+              "f1": 0.6128
+            },
+            {
+              "accuracy": 0.6768,
+              "precision": 0.6849,
+              "recall": 0.6768,
+              "f1": 0.6738
+            },
+            {
+              "accuracy": 0.596,
+              "precision": 0.6216,
+              "recall": 0.596,
+              "f1": 0.576
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.881,
+              "precision": 0.8812,
+              "recall": 0.881,
+              "f1": 0.881
+            },
+            {
+              "accuracy": 0.8833,
+              "precision": 0.8839,
+              "recall": 0.8833,
+              "f1": 0.8832
+            },
+            {
+              "accuracy": 0.8799,
+              "precision": 0.8803,
+              "recall": 0.8799,
+              "f1": 0.8799
+            },
+            {
+              "accuracy": 0.8788,
+              "precision": 0.8791,
+              "recall": 0.8788,
+              "f1": 0.8788
+            },
+            {
+              "accuracy": 0.89,
+              "precision": 0.8903,
+              "recall": 0.89,
+              "f1": 0.89
+            },
+            {
+              "accuracy": 0.7149,
+              "precision": 0.7423,
+              "recall": 0.7149,
+              "f1": 0.7066
+            },
+            {
+              "accuracy": 0.7452,
+              "precision": 0.776,
+              "recall": 0.7452,
+              "f1": 0.7378
+            },
+            {
+              "accuracy": 0.7452,
+              "precision": 0.7676,
+              "recall": 0.7452,
+              "f1": 0.7397
+            },
+            {
+              "accuracy": 0.7385,
+              "precision": 0.7667,
+              "recall": 0.7385,
+              "f1": 0.7313
+            },
+            {
+              "accuracy": 0.7351,
+              "precision": 0.7625,
+              "recall": 0.7351,
+              "f1": 0.728
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                40,
+                9
+              ],
+              [
+                11,
+                39
+              ]
+            ],
+            [
+              [
+                41,
+                8
+              ],
+              [
+                9,
+                41
+              ]
+            ],
+            [
+              [
+                35,
+                14
+              ],
+              [
+                6,
+                44
+              ]
+            ],
+            [
+              [
+                41,
+                8
+              ],
+              [
+                15,
+                35
+              ]
+            ],
+            [
+              [
+                38,
+                11
+              ],
+              [
+                13,
+                37
+              ]
+            ],
+            [
+              [
+                30,
+                20
+              ],
+              [
+                9,
+                40
+              ]
+            ],
+            [
+              [
+                23,
+                27
+              ],
+              [
+                13,
+                36
+              ]
+            ],
+            [
+              [
+                22,
+                28
+              ],
+              [
+                9,
+                40
+              ]
+            ],
+            [
+              [
+                29,
+                21
+              ],
+              [
+                11,
+                38
+              ]
+            ],
+            [
+              [
+                19,
+                31
+              ],
+              [
+                9,
+                40
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                388,
+                58
+              ],
+              [
+                48,
+                397
+              ]
+            ],
+            [
+              [
+                385,
+                61
+              ],
+              [
+                43,
+                402
+              ]
+            ],
+            [
+              [
+                385,
+                61
+              ],
+              [
+                46,
+                399
+              ]
+            ],
+            [
+              [
+                386,
+                60
+              ],
+              [
+                48,
+                397
+              ]
+            ],
+            [
+              [
+                391,
+                55
+              ],
+              [
+                43,
+                402
+              ]
+            ],
+            [
+              [
+                243,
+                202
+              ],
+              [
+                52,
+                394
+              ]
+            ],
+            [
+              [
+                257,
+                188
+              ],
+              [
+                39,
+                407
+              ]
+            ],
+            [
+              [
+                267,
+                178
+              ],
+              [
+                49,
+                397
+              ]
+            ],
+            [
+              [
+                256,
+                189
+              ],
+              [
+                44,
+                402
+              ]
+            ],
+            [
+              [
+                255,
+                190
+              ],
+              [
+                46,
+                400
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 141,
+            "1": 495
+          },
+          "dist_after": {
+            "-1": 495,
+            "1": 495
+          },
+          "n_before": 636,
+          "n_after": 990,
+          "vocab_size": 631,
+          "report": {
+            "Negatif": {
+              "precision": 0.75177304964539,
+              "recall": 0.6424242424242425,
+              "f1-score": 0.6928104575163399,
+              "support": 495.0
+            },
+            "Positif": {
+              "precision": 0.6878306878306878,
+              "recall": 0.7878787878787878,
+              "f1-score": 0.7344632768361582,
+              "support": 495.0
+            },
+            "accuracy": 0.7151515151515152,
+            "macro avg": {
+              "precision": 0.719801868738039,
+              "recall": 0.7151515151515151,
+              "f1-score": 0.713636867176249,
+              "support": 990.0
+            },
+            "weighted avg": {
+              "precision": 0.719801868738039,
+              "recall": 0.7151515151515152,
+              "f1-score": 0.7136368671762491,
+              "support": 990.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              318,
+              177
+            ],
+            [
+              105,
+              390
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              3213,
+              1242
+            ],
+            [
+              458,
+              3997
+            ]
+          ]
+        },
+        "tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "tomek",
+          "metrics": {
+            "accuracy": 0.8132,
+            "precision": 0.806,
+            "recall": 0.8132,
+            "f1": 0.806
+          },
+          "metrics_std": {
+            "accuracy": 0.0409,
+            "precision": 0.0414,
+            "recall": 0.0409,
+            "f1": 0.0395
+          },
+          "train_metrics": {
+            "accuracy": 0.9144,
+            "precision": 0.9131,
+            "recall": 0.9144,
+            "f1": 0.9105
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0037,
+            "precision": 0.0039,
+            "recall": 0.0037,
+            "f1": 0.004
+          },
+          "gap": {
+            "accuracy": 0.1012,
+            "precision": 0.1071,
+            "recall": 0.1012,
+            "f1": 0.1045
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.8438,
+              "precision": 0.8337,
+              "recall": 0.8438,
+              "f1": 0.8269
+            },
+            {
+              "accuracy": 0.8281,
+              "precision": 0.8163,
+              "recall": 0.8281,
+              "f1": 0.8151
+            },
+            {
+              "accuracy": 0.7937,
+              "precision": 0.7885,
+              "recall": 0.7937,
+              "f1": 0.7909
+            },
+            {
+              "accuracy": 0.7302,
+              "precision": 0.7232,
+              "recall": 0.7302,
+              "f1": 0.7265
+            },
+            {
+              "accuracy": 0.8413,
+              "precision": 0.8313,
+              "recall": 0.8413,
+              "f1": 0.8242
+            },
+            {
+              "accuracy": 0.7937,
+              "precision": 0.7793,
+              "recall": 0.7937,
+              "f1": 0.7843
+            },
+            {
+              "accuracy": 0.8571,
+              "precision": 0.8538,
+              "recall": 0.8571,
+              "f1": 0.8552
+            },
+            {
+              "accuracy": 0.7778,
+              "precision": 0.7669,
+              "recall": 0.7778,
+              "f1": 0.7715
+            },
+            {
+              "accuracy": 0.873,
+              "precision": 0.8682,
+              "recall": 0.873,
+              "f1": 0.8694
+            },
+            {
+              "accuracy": 0.7937,
+              "precision": 0.7991,
+              "recall": 0.7937,
+              "f1": 0.7961
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.9102,
+              "precision": 0.9082,
+              "recall": 0.9102,
+              "f1": 0.9065
+            },
+            {
+              "accuracy": 0.9208,
+              "precision": 0.9194,
+              "recall": 0.9208,
+              "f1": 0.9178
+            },
+            {
+              "accuracy": 0.9156,
+              "precision": 0.9143,
+              "recall": 0.9156,
+              "f1": 0.912
+            },
+            {
+              "accuracy": 0.9156,
+              "precision": 0.9146,
+              "recall": 0.9156,
+              "f1": 0.9117
+            },
+            {
+              "accuracy": 0.9139,
+              "precision": 0.9122,
+              "recall": 0.9139,
+              "f1": 0.9104
+            },
+            {
+              "accuracy": 0.9104,
+              "precision": 0.909,
+              "recall": 0.9104,
+              "f1": 0.906
+            },
+            {
+              "accuracy": 0.9156,
+              "precision": 0.9151,
+              "recall": 0.9156,
+              "f1": 0.9114
+            },
+            {
+              "accuracy": 0.9139,
+              "precision": 0.9125,
+              "recall": 0.9139,
+              "f1": 0.91
+            },
+            {
+              "accuracy": 0.9086,
+              "precision": 0.9072,
+              "recall": 0.9086,
+              "f1": 0.904
+            },
+            {
+              "accuracy": 0.9192,
+              "precision": 0.9186,
+              "recall": 0.9192,
+              "f1": 0.9154
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                6,
+                8
+              ],
+              [
+                2,
+                48
+              ]
+            ],
+            [
+              [
+                7,
+                8
+              ],
+              [
+                3,
+                46
+              ]
+            ],
+            [
+              [
+                7,
+                7
+              ],
+              [
+                6,
+                43
+              ]
+            ],
+            [
+              [
+                5,
+                9
+              ],
+              [
+                8,
+                41
+              ]
+            ],
+            [
+              [
+                6,
+                8
+              ],
+              [
+                2,
+                47
+              ]
+            ],
+            [
+              [
+                6,
+                8
+              ],
+              [
+                5,
+                44
+              ]
+            ],
+            [
+              [
+                9,
+                5
+              ],
+              [
+                4,
+                45
+              ]
+            ],
+            [
+              [
+                6,
+                8
+              ],
+              [
+                6,
+                43
+              ]
+            ],
+            [
+              [
+                9,
+                5
+              ],
+              [
+                3,
+                46
+              ]
+            ],
+            [
+              [
+                8,
+                6
+              ],
+              [
+                7,
+                42
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                89,
+                38
+              ],
+              [
+                13,
+                428
+              ]
+            ],
+            [
+              [
+                92,
+                34
+              ],
+              [
+                11,
+                431
+              ]
+            ],
+            [
+              [
+                90,
+                37
+              ],
+              [
+                11,
+                431
+              ]
+            ],
+            [
+              [
+                89,
+                38
+              ],
+              [
+                10,
+                432
+              ]
+            ],
+            [
+              [
+                90,
+                37
+              ],
+              [
+                12,
+                430
+              ]
+            ],
+            [
+              [
+                87,
+                40
+              ],
+              [
+                11,
+                431
+              ]
+            ],
+            [
+              [
+                88,
+                39
+              ],
+              [
+                9,
+                433
+              ]
+            ],
+            [
+              [
+                89,
+                38
+              ],
+              [
+                11,
+                431
+              ]
+            ],
+            [
+              [
+                86,
+                41
+              ],
+              [
+                11,
+                431
+              ]
+            ],
+            [
+              [
+                90,
+                37
+              ],
+              [
+                9,
+                433
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 141,
+            "1": 495
+          },
+          "dist_after": {
+            "-1": 141,
+            "1": 491
+          },
+          "n_before": 636,
+          "n_after": 632,
+          "vocab_size": 631,
+          "report": {
+            "Negatif": {
+              "precision": 0.6,
+              "recall": 0.48936170212765956,
+              "f1-score": 0.5390625,
+              "support": 141.0
+            },
+            "Positif": {
+              "precision": 0.8607350096711799,
+              "recall": 0.9063136456211812,
+              "f1-score": 0.8829365079365079,
+              "support": 491.0
+            },
+            "accuracy": 0.8132911392405063,
+            "macro avg": {
+              "precision": 0.73036750483559,
+              "recall": 0.6978376738744204,
+              "f1-score": 0.710999503968254,
+              "support": 632.0
+            },
+            "weighted avg": {
+              "precision": 0.8025646989692237,
+              "recall": 0.8132911392405063,
+              "f1-score": 0.8062177814823186,
+              "support": 632.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              69,
+              72
+            ],
+            [
+              46,
+              445
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              890,
+              379
+            ],
+            [
+              108,
+              4311
+            ]
+          ]
+        },
+        "smote_tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote_tomek",
+          "metrics": {
+            "accuracy": 0.7152,
+            "precision": 0.7244,
+            "recall": 0.7152,
+            "f1": 0.7101
+          },
+          "metrics_std": {
+            "accuracy": 0.083,
+            "precision": 0.0764,
+            "recall": 0.083,
+            "f1": 0.0885
+          },
+          "train_metrics": {
+            "accuracy": 0.8092,
+            "precision": 0.823,
+            "recall": 0.8092,
+            "f1": 0.8056
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0739,
+            "precision": 0.0606,
+            "recall": 0.0739,
+            "f1": 0.0775
+          },
+          "gap": {
+            "accuracy": 0.094,
+            "precision": 0.0986,
+            "recall": 0.094,
+            "f1": 0.0955
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.798,
+              "precision": 0.7985,
+              "recall": 0.798,
+              "f1": 0.7979
+            },
+            {
+              "accuracy": 0.8283,
+              "precision": 0.8285,
+              "recall": 0.8283,
+              "f1": 0.8283
+            },
+            {
+              "accuracy": 0.798,
+              "precision": 0.8057,
+              "recall": 0.798,
+              "f1": 0.7965
+            },
+            {
+              "accuracy": 0.7677,
+              "precision": 0.7735,
+              "recall": 0.7677,
+              "f1": 0.7667
+            },
+            {
+              "accuracy": 0.7576,
+              "precision": 0.7581,
+              "recall": 0.7576,
+              "f1": 0.7575
+            },
+            {
+              "accuracy": 0.7071,
+              "precision": 0.7185,
+              "recall": 0.7071,
+              "f1": 0.7037
+            },
+            {
+              "accuracy": 0.596,
+              "precision": 0.6055,
+              "recall": 0.596,
+              "f1": 0.5883
+            },
+            {
+              "accuracy": 0.6263,
+              "precision": 0.6496,
+              "recall": 0.6263,
+              "f1": 0.6128
+            },
+            {
+              "accuracy": 0.6768,
+              "precision": 0.6849,
+              "recall": 0.6768,
+              "f1": 0.6738
+            },
+            {
+              "accuracy": 0.596,
+              "precision": 0.6216,
+              "recall": 0.596,
+              "f1": 0.576
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.881,
+              "precision": 0.8812,
+              "recall": 0.881,
+              "f1": 0.881
+            },
+            {
+              "accuracy": 0.8833,
+              "precision": 0.8839,
+              "recall": 0.8833,
+              "f1": 0.8832
+            },
+            {
+              "accuracy": 0.8799,
+              "precision": 0.8803,
+              "recall": 0.8799,
+              "f1": 0.8799
+            },
+            {
+              "accuracy": 0.8788,
+              "precision": 0.8791,
+              "recall": 0.8788,
+              "f1": 0.8788
+            },
+            {
+              "accuracy": 0.89,
+              "precision": 0.8903,
+              "recall": 0.89,
+              "f1": 0.89
+            },
+            {
+              "accuracy": 0.7149,
+              "precision": 0.7423,
+              "recall": 0.7149,
+              "f1": 0.7066
+            },
+            {
+              "accuracy": 0.7452,
+              "precision": 0.776,
+              "recall": 0.7452,
+              "f1": 0.7378
+            },
+            {
+              "accuracy": 0.7452,
+              "precision": 0.7676,
+              "recall": 0.7452,
+              "f1": 0.7397
+            },
+            {
+              "accuracy": 0.7385,
+              "precision": 0.7667,
+              "recall": 0.7385,
+              "f1": 0.7313
+            },
+            {
+              "accuracy": 0.7351,
+              "precision": 0.7625,
+              "recall": 0.7351,
+              "f1": 0.728
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                40,
+                9
+              ],
+              [
+                11,
+                39
+              ]
+            ],
+            [
+              [
+                41,
+                8
+              ],
+              [
+                9,
+                41
+              ]
+            ],
+            [
+              [
+                35,
+                14
+              ],
+              [
+                6,
+                44
+              ]
+            ],
+            [
+              [
+                41,
+                8
+              ],
+              [
+                15,
+                35
+              ]
+            ],
+            [
+              [
+                38,
+                11
+              ],
+              [
+                13,
+                37
+              ]
+            ],
+            [
+              [
+                30,
+                20
+              ],
+              [
+                9,
+                40
+              ]
+            ],
+            [
+              [
+                23,
+                27
+              ],
+              [
+                13,
+                36
+              ]
+            ],
+            [
+              [
+                22,
+                28
+              ],
+              [
+                9,
+                40
+              ]
+            ],
+            [
+              [
+                29,
+                21
+              ],
+              [
+                11,
+                38
+              ]
+            ],
+            [
+              [
+                19,
+                31
+              ],
+              [
+                9,
+                40
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                388,
+                58
+              ],
+              [
+                48,
+                397
+              ]
+            ],
+            [
+              [
+                385,
+                61
+              ],
+              [
+                43,
+                402
+              ]
+            ],
+            [
+              [
+                385,
+                61
+              ],
+              [
+                46,
+                399
+              ]
+            ],
+            [
+              [
+                386,
+                60
+              ],
+              [
+                48,
+                397
+              ]
+            ],
+            [
+              [
+                391,
+                55
+              ],
+              [
+                43,
+                402
+              ]
+            ],
+            [
+              [
+                243,
+                202
+              ],
+              [
+                52,
+                394
+              ]
+            ],
+            [
+              [
+                257,
+                188
+              ],
+              [
+                39,
+                407
+              ]
+            ],
+            [
+              [
+                267,
+                178
+              ],
+              [
+                49,
+                397
+              ]
+            ],
+            [
+              [
+                256,
+                189
+              ],
+              [
+                44,
+                402
+              ]
+            ],
+            [
+              [
+                255,
+                190
+              ],
+              [
+                46,
+                400
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 141,
+            "1": 495
+          },
+          "dist_after": {
+            "-1": 495,
+            "1": 495
+          },
+          "n_before": 636,
+          "n_after": 990,
+          "vocab_size": 631,
+          "report": {
+            "Negatif": {
+              "precision": 0.75177304964539,
+              "recall": 0.6424242424242425,
+              "f1-score": 0.6928104575163399,
+              "support": 495.0
+            },
+            "Positif": {
+              "precision": 0.6878306878306878,
+              "recall": 0.7878787878787878,
+              "f1-score": 0.7344632768361582,
+              "support": 495.0
+            },
+            "accuracy": 0.7151515151515152,
+            "macro avg": {
+              "precision": 0.719801868738039,
+              "recall": 0.7151515151515151,
+              "f1-score": 0.713636867176249,
+              "support": 990.0
+            },
+            "weighted avg": {
+              "precision": 0.719801868738039,
+              "recall": 0.7151515151515152,
+              "f1-score": 0.7136368671762491,
+              "support": 990.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              318,
+              177
+            ],
+            [
+              105,
+              390
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              3213,
+              1242
+            ],
+            [
+              458,
+              3997
+            ]
+          ]
+        }
+      }
+    },
+    "a": {
+      "label": "Aksesibilitas",
+      "n_total": 332,
+      "n_folds": 10,
+      "protocol": "balance_then_kfold",
+      "best_scenario": "smote",
+      "best_from_tuning": "smote",
+      "best_f1": 0.7821,
+      "scenarios": {
+        "none": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "none",
+          "metrics": {
+            "accuracy": 0.7616,
+            "precision": 0.7671,
+            "recall": 0.7616,
+            "f1": 0.7582
+          },
+          "metrics_std": {
+            "accuracy": 0.0578,
+            "precision": 0.0567,
+            "recall": 0.0578,
+            "f1": 0.0583
+          },
+          "train_metrics": {
+            "accuracy": 0.9103,
+            "precision": 0.9094,
+            "recall": 0.9103,
+            "f1": 0.9091
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0051,
+            "precision": 0.0051,
+            "recall": 0.0051,
+            "f1": 0.005
+          },
+          "gap": {
+            "accuracy": 0.1487,
+            "precision": 0.1423,
+            "recall": 0.1487,
+            "f1": 0.1509
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.8529,
+              "precision": 0.8499,
+              "recall": 0.8529,
+              "f1": 0.8506
+            },
+            {
+              "accuracy": 0.8235,
+              "precision": 0.8179,
+              "recall": 0.8235,
+              "f1": 0.8173
+            },
+            {
+              "accuracy": 0.7879,
+              "precision": 0.7828,
+              "recall": 0.7879,
+              "f1": 0.7846
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6974,
+              "recall": 0.6667,
+              "f1": 0.6768
+            },
+            {
+              "accuracy": 0.8182,
+              "precision": 0.8551,
+              "recall": 0.8182,
+              "f1": 0.8247
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7355,
+              "recall": 0.7273,
+              "f1": 0.7307
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7045,
+              "recall": 0.7273,
+              "f1": 0.6952
+            },
+            {
+              "accuracy": 0.7879,
+              "precision": 0.7814,
+              "recall": 0.7879,
+              "f1": 0.7838
+            },
+            {
+              "accuracy": 0.697,
+              "precision": 0.7441,
+              "recall": 0.697,
+              "f1": 0.7107
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.702,
+              "recall": 0.7273,
+              "f1": 0.708
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.9195,
+              "precision": 0.919,
+              "recall": 0.9195,
+              "f1": 0.9179
+            },
+            {
+              "accuracy": 0.9094,
+              "precision": 0.9083,
+              "recall": 0.9094,
+              "f1": 0.9082
+            },
+            {
+              "accuracy": 0.8997,
+              "precision": 0.8991,
+              "recall": 0.8997,
+              "f1": 0.8993
+            },
+            {
+              "accuracy": 0.913,
+              "precision": 0.9121,
+              "recall": 0.913,
+              "f1": 0.9118
+            },
+            {
+              "accuracy": 0.9064,
+              "precision": 0.9053,
+              "recall": 0.9064,
+              "f1": 0.9046
+            },
+            {
+              "accuracy": 0.9097,
+              "precision": 0.9087,
+              "recall": 0.9097,
+              "f1": 0.9082
+            },
+            {
+              "accuracy": 0.9097,
+              "precision": 0.9087,
+              "recall": 0.9097,
+              "f1": 0.9082
+            },
+            {
+              "accuracy": 0.9164,
+              "precision": 0.9155,
+              "recall": 0.9164,
+              "f1": 0.9157
+            },
+            {
+              "accuracy": 0.9097,
+              "precision": 0.9086,
+              "recall": 0.9097,
+              "f1": 0.9086
+            },
+            {
+              "accuracy": 0.9097,
+              "precision": 0.9087,
+              "recall": 0.9097,
+              "f1": 0.9082
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                22,
+                2
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            [
+              [
+                22,
+                2
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                20,
+                3
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                16,
+                7
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                18,
+                5
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            [
+              [
+                18,
+                5
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                21,
+                2
+              ],
+              [
+                7,
+                3
+              ]
+            ],
+            [
+              [
+                21,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                17,
+                7
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            [
+              [
+                21,
+                3
+              ],
+              [
+                6,
+                3
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                204,
+                7
+              ],
+              [
+                17,
+                70
+              ]
+            ],
+            [
+              [
+                201,
+                10
+              ],
+              [
+                17,
+                70
+              ]
+            ],
+            [
+              [
+                198,
+                14
+              ],
+              [
+                16,
+                71
+              ]
+            ],
+            [
+              [
+                203,
+                9
+              ],
+              [
+                17,
+                70
+              ]
+            ],
+            [
+              [
+                203,
+                9
+              ],
+              [
+                19,
+                68
+              ]
+            ],
+            [
+              [
+                203,
+                9
+              ],
+              [
+                18,
+                69
+              ]
+            ],
+            [
+              [
+                203,
+                9
+              ],
+              [
+                18,
+                69
+              ]
+            ],
+            [
+              [
+                201,
+                10
+              ],
+              [
+                15,
+                73
+              ]
+            ],
+            [
+              [
+                201,
+                10
+              ],
+              [
+                17,
+                71
+              ]
+            ],
+            [
+              [
+                202,
+                9
+              ],
+              [
+                18,
+                70
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 235,
+            "1": 97
+          },
+          "dist_after": {
+            "-1": 235,
+            "1": 97
+          },
+          "n_before": 332,
+          "n_after": 332,
+          "vocab_size": 398,
+          "report": {
+            "Negatif": {
+              "precision": 0.8305084745762712,
+              "recall": 0.8340425531914893,
+              "f1-score": 0.832271762208068,
+              "support": 235.0
+            },
+            "Positif": {
+              "precision": 0.59375,
+              "recall": 0.5876288659793815,
+              "f1-score": 0.5906735751295337,
+              "support": 97.0
+            },
+            "accuracy": 0.7620481927710844,
+            "macro avg": {
+              "precision": 0.7121292372881356,
+              "recall": 0.7108357095854354,
+              "f1-score": 0.7114726686688009,
+              "support": 332.0
+            },
+            "weighted avg": {
+              "precision": 0.7613350648356136,
+              "recall": 0.7620481927710844,
+              "f1-score": 0.761684340079701,
+              "support": 332.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              196,
+              39
+            ],
+            [
+              40,
+              57
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              2019,
+              96
+            ],
+            [
+              172,
+              701
+            ]
+          ]
+        },
+        "smote": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote",
+          "metrics": {
+            "accuracy": 0.783,
+            "precision": 0.789,
+            "recall": 0.783,
+            "f1": 0.7821
+          },
+          "metrics_std": {
+            "accuracy": 0.0423,
+            "precision": 0.0434,
+            "recall": 0.0423,
+            "f1": 0.0426
+          },
+          "train_metrics": {
+            "accuracy": 0.8844,
+            "precision": 0.8851,
+            "recall": 0.8844,
+            "f1": 0.8843
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0216,
+            "precision": 0.022,
+            "recall": 0.0216,
+            "f1": 0.0216
+          },
+          "gap": {
+            "accuracy": 0.1014,
+            "precision": 0.0961,
+            "recall": 0.1014,
+            "f1": 0.1022
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7021,
+              "precision": 0.7031,
+              "recall": 0.7021,
+              "f1": 0.7013
+            },
+            {
+              "accuracy": 0.7872,
+              "precision": 0.7965,
+              "recall": 0.7872,
+              "f1": 0.7861
+            },
+            {
+              "accuracy": 0.8085,
+              "precision": 0.8089,
+              "recall": 0.8085,
+              "f1": 0.8083
+            },
+            {
+              "accuracy": 0.7447,
+              "precision": 0.7511,
+              "recall": 0.7447,
+              "f1": 0.7423
+            },
+            {
+              "accuracy": 0.7872,
+              "precision": 0.7965,
+              "recall": 0.7872,
+              "f1": 0.7861
+            },
+            {
+              "accuracy": 0.8723,
+              "precision": 0.8753,
+              "recall": 0.8723,
+              "f1": 0.8722
+            },
+            {
+              "accuracy": 0.766,
+              "precision": 0.7667,
+              "recall": 0.766,
+              "f1": 0.766
+            },
+            {
+              "accuracy": 0.8085,
+              "precision": 0.8239,
+              "recall": 0.8085,
+              "f1": 0.8068
+            },
+            {
+              "accuracy": 0.7872,
+              "precision": 0.7965,
+              "recall": 0.7872,
+              "f1": 0.7861
+            },
+            {
+              "accuracy": 0.766,
+              "precision": 0.771,
+              "recall": 0.766,
+              "f1": 0.7653
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8794,
+              "precision": 0.8798,
+              "recall": 0.8794,
+              "f1": 0.8794
+            },
+            {
+              "accuracy": 0.8511,
+              "precision": 0.8511,
+              "recall": 0.8511,
+              "f1": 0.8511
+            },
+            {
+              "accuracy": 0.8629,
+              "precision": 0.863,
+              "recall": 0.8629,
+              "f1": 0.8629
+            },
+            {
+              "accuracy": 0.8605,
+              "precision": 0.8619,
+              "recall": 0.8605,
+              "f1": 0.8604
+            },
+            {
+              "accuracy": 0.8676,
+              "precision": 0.8676,
+              "recall": 0.8676,
+              "f1": 0.8676
+            },
+            {
+              "accuracy": 0.9078,
+              "precision": 0.9093,
+              "recall": 0.9078,
+              "f1": 0.9077
+            },
+            {
+              "accuracy": 0.8983,
+              "precision": 0.8998,
+              "recall": 0.8983,
+              "f1": 0.8982
+            },
+            {
+              "accuracy": 0.9125,
+              "precision": 0.9141,
+              "recall": 0.9125,
+              "f1": 0.9124
+            },
+            {
+              "accuracy": 0.896,
+              "precision": 0.8965,
+              "recall": 0.896,
+              "f1": 0.8959
+            },
+            {
+              "accuracy": 0.9078,
+              "precision": 0.9082,
+              "recall": 0.9078,
+              "f1": 0.9078
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                15,
+                8
+              ],
+              [
+                6,
+                18
+              ]
+            ],
+            [
+              [
+                20,
+                3
+              ],
+              [
+                7,
+                17
+              ]
+            ],
+            [
+              [
+                18,
+                5
+              ],
+              [
+                4,
+                20
+              ]
+            ],
+            [
+              [
+                15,
+                8
+              ],
+              [
+                4,
+                20
+              ]
+            ],
+            [
+              [
+                20,
+                3
+              ],
+              [
+                7,
+                17
+              ]
+            ],
+            [
+              [
+                20,
+                4
+              ],
+              [
+                2,
+                21
+              ]
+            ],
+            [
+              [
+                18,
+                6
+              ],
+              [
+                5,
+                18
+              ]
+            ],
+            [
+              [
+                17,
+                7
+              ],
+              [
+                2,
+                21
+              ]
+            ],
+            [
+              [
+                17,
+                7
+              ],
+              [
+                3,
+                20
+              ]
+            ],
+            [
+              [
+                17,
+                7
+              ],
+              [
+                4,
+                19
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                190,
+                22
+              ],
+              [
+                29,
+                182
+              ]
+            ],
+            [
+              [
+                180,
+                32
+              ],
+              [
+                31,
+                180
+              ]
+            ],
+            [
+              [
+                185,
+                27
+              ],
+              [
+                31,
+                180
+              ]
+            ],
+            [
+              [
+                189,
+                23
+              ],
+              [
+                36,
+                175
+              ]
+            ],
+            [
+              [
+                184,
+                28
+              ],
+              [
+                28,
+                183
+              ]
+            ],
+            [
+              [
+                185,
+                26
+              ],
+              [
+                13,
+                199
+              ]
+            ],
+            [
+              [
+                183,
+                28
+              ],
+              [
+                15,
+                197
+              ]
+            ],
+            [
+              [
+                186,
+                25
+              ],
+              [
+                12,
+                200
+              ]
+            ],
+            [
+              [
+                185,
+                26
+              ],
+              [
+                18,
+                194
+              ]
+            ],
+            [
+              [
+                188,
+                23
+              ],
+              [
+                16,
+                196
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 235,
+            "1": 97
+          },
+          "dist_after": {
+            "-1": 235,
+            "1": 235
+          },
+          "n_before": 332,
+          "n_after": 470,
+          "vocab_size": 398,
+          "report": {
+            "Negatif": {
+              "precision": 0.8009049773755657,
+              "recall": 0.7531914893617021,
+              "f1-score": 0.7763157894736842,
+              "support": 235.0
+            },
+            "Positif": {
+              "precision": 0.7670682730923695,
+              "recall": 0.8127659574468085,
+              "f1-score": 0.7892561983471075,
+              "support": 235.0
+            },
+            "accuracy": 0.7829787234042553,
+            "macro avg": {
+              "precision": 0.7839866252339676,
+              "recall": 0.7829787234042553,
+              "f1-score": 0.7827859939103958,
+              "support": 470.0
+            },
+            "weighted avg": {
+              "precision": 0.7839866252339676,
+              "recall": 0.7829787234042553,
+              "f1-score": 0.7827859939103959,
+              "support": 470.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              177,
+              58
+            ],
+            [
+              44,
+              191
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1855,
+              260
+            ],
+            [
+              229,
+              1886
+            ]
+          ]
+        },
+        "tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "tomek",
+          "metrics": {
+            "accuracy": 0.7442,
+            "precision": 0.7474,
+            "recall": 0.7442,
+            "f1": 0.7423
+          },
+          "metrics_std": {
+            "accuracy": 0.0619,
+            "precision": 0.0599,
+            "recall": 0.0619,
+            "f1": 0.0599
+          },
+          "train_metrics": {
+            "accuracy": 0.913,
+            "precision": 0.9122,
+            "recall": 0.913,
+            "f1": 0.9119
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0048,
+            "precision": 0.0049,
+            "recall": 0.0048,
+            "f1": 0.0047
+          },
+          "gap": {
+            "accuracy": 0.1688,
+            "precision": 0.1648,
+            "recall": 0.1688,
+            "f1": 0.1696
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.6364,
+              "precision": 0.6573,
+              "recall": 0.6364,
+              "f1": 0.6446
+            },
+            {
+              "accuracy": 0.8182,
+              "precision": 0.8127,
+              "recall": 0.8182,
+              "f1": 0.8119
+            },
+            {
+              "accuracy": 0.8182,
+              "precision": 0.8127,
+              "recall": 0.8182,
+              "f1": 0.8119
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7093,
+              "recall": 0.7273,
+              "f1": 0.7116
+            },
+            {
+              "accuracy": 0.7576,
+              "precision": 0.7968,
+              "recall": 0.7576,
+              "f1": 0.7662
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7355,
+              "recall": 0.7273,
+              "f1": 0.7307
+            },
+            {
+              "accuracy": 0.697,
+              "precision": 0.6812,
+              "recall": 0.697,
+              "f1": 0.6864
+            },
+            {
+              "accuracy": 0.697,
+              "precision": 0.719,
+              "recall": 0.697,
+              "f1": 0.7055
+            },
+            {
+              "accuracy": 0.8438,
+              "precision": 0.8398,
+              "recall": 0.8438,
+              "f1": 0.8408
+            },
+            {
+              "accuracy": 0.7188,
+              "precision": 0.7096,
+              "recall": 0.7188,
+              "f1": 0.7135
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.9186,
+              "precision": 0.9182,
+              "recall": 0.9186,
+              "f1": 0.9171
+            },
+            {
+              "accuracy": 0.9119,
+              "precision": 0.9109,
+              "recall": 0.9119,
+              "f1": 0.9106
+            },
+            {
+              "accuracy": 0.9085,
+              "precision": 0.9077,
+              "recall": 0.9085,
+              "f1": 0.908
+            },
+            {
+              "accuracy": 0.9119,
+              "precision": 0.9109,
+              "recall": 0.9119,
+              "f1": 0.9109
+            },
+            {
+              "accuracy": 0.9085,
+              "precision": 0.9078,
+              "recall": 0.9085,
+              "f1": 0.9066
+            },
+            {
+              "accuracy": 0.9153,
+              "precision": 0.9144,
+              "recall": 0.9153,
+              "f1": 0.9145
+            },
+            {
+              "accuracy": 0.922,
+              "precision": 0.9213,
+              "recall": 0.922,
+              "f1": 0.921
+            },
+            {
+              "accuracy": 0.9119,
+              "precision": 0.9114,
+              "recall": 0.9119,
+              "f1": 0.9116
+            },
+            {
+              "accuracy": 0.9054,
+              "precision": 0.9045,
+              "recall": 0.9054,
+              "f1": 0.9048
+            },
+            {
+              "accuracy": 0.9155,
+              "precision": 0.9152,
+              "recall": 0.9155,
+              "f1": 0.9138
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                16,
+                7
+              ],
+              [
+                5,
+                5
+              ]
+            ],
+            [
+              [
+                21,
+                2
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                21,
+                2
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                20,
+                3
+              ],
+              [
+                6,
+                4
+              ]
+            ],
+            [
+              [
+                17,
+                6
+              ],
+              [
+                2,
+                8
+              ]
+            ],
+            [
+              [
+                18,
+                5
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                19,
+                4
+              ],
+              [
+                6,
+                4
+              ]
+            ],
+            [
+              [
+                18,
+                6
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                21,
+                2
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            [
+              [
+                19,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                201,
+                7
+              ],
+              [
+                17,
+                70
+              ]
+            ],
+            [
+              [
+                199,
+                9
+              ],
+              [
+                17,
+                70
+              ]
+            ],
+            [
+              [
+                196,
+                12
+              ],
+              [
+                15,
+                72
+              ]
+            ],
+            [
+              [
+                198,
+                10
+              ],
+              [
+                16,
+                71
+              ]
+            ],
+            [
+              [
+                200,
+                8
+              ],
+              [
+                19,
+                68
+              ]
+            ],
+            [
+              [
+                198,
+                10
+              ],
+              [
+                15,
+                72
+              ]
+            ],
+            [
+              [
+                200,
+                8
+              ],
+              [
+                15,
+                72
+              ]
+            ],
+            [
+              [
+                195,
+                12
+              ],
+              [
+                14,
+                74
+              ]
+            ],
+            [
+              [
+                196,
+                12
+              ],
+              [
+                16,
+                72
+              ]
+            ],
+            [
+              [
+                201,
+                7
+              ],
+              [
+                18,
+                70
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 235,
+            "1": 97
+          },
+          "dist_after": {
+            "-1": 231,
+            "1": 97
+          },
+          "n_before": 332,
+          "n_after": 328,
+          "vocab_size": 398,
+          "report": {
+            "Negatif": {
+              "precision": 0.8154506437768241,
+              "recall": 0.8225108225108225,
+              "f1-score": 0.8189655172413793,
+              "support": 231.0
+            },
+            "Positif": {
+              "precision": 0.5684210526315789,
+              "recall": 0.5567010309278351,
+              "f1-score": 0.5625,
+              "support": 97.0
+            },
+            "accuracy": 0.7439024390243902,
+            "macro avg": {
+              "precision": 0.6919358482042015,
+              "recall": 0.6896059267193289,
+              "f1-score": 0.6907327586206897,
+              "support": 328.0
+            },
+            "weighted avg": {
+              "precision": 0.7423961610296023,
+              "recall": 0.7439024390243902,
+              "f1-score": 0.74312053195963,
+              "support": 328.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              190,
+              41
+            ],
+            [
+              43,
+              54
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1984,
+              95
+            ],
+            [
+              162,
+              711
+            ]
+          ]
+        },
+        "smote_tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote_tomek",
+          "metrics": {
+            "accuracy": 0.7647,
+            "precision": 0.7704,
+            "recall": 0.7647,
+            "f1": 0.7639
+          },
+          "metrics_std": {
+            "accuracy": 0.0745,
+            "precision": 0.0785,
+            "recall": 0.0745,
+            "f1": 0.0742
+          },
+          "train_metrics": {
+            "accuracy": 0.8832,
+            "precision": 0.8838,
+            "recall": 0.8832,
+            "f1": 0.8831
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0211,
+            "precision": 0.0215,
+            "recall": 0.0211,
+            "f1": 0.0211
+          },
+          "gap": {
+            "accuracy": 0.1185,
+            "precision": 0.1134,
+            "recall": 0.1185,
+            "f1": 0.1192
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7021,
+              "precision": 0.7041,
+              "recall": 0.7021,
+              "f1": 0.7019
+            },
+            {
+              "accuracy": 0.6809,
+              "precision": 0.6809,
+              "recall": 0.6809,
+              "f1": 0.6806
+            },
+            {
+              "accuracy": 0.7234,
+              "precision": 0.7236,
+              "recall": 0.7234,
+              "f1": 0.7232
+            },
+            {
+              "accuracy": 0.8511,
+              "precision": 0.8573,
+              "recall": 0.8511,
+              "f1": 0.8507
+            },
+            {
+              "accuracy": 0.8085,
+              "precision": 0.8092,
+              "recall": 0.8085,
+              "f1": 0.8085
+            },
+            {
+              "accuracy": 0.8511,
+              "precision": 0.8683,
+              "recall": 0.8511,
+              "f1": 0.8497
+            },
+            {
+              "accuracy": 0.8511,
+              "precision": 0.8565,
+              "recall": 0.8511,
+              "f1": 0.8502
+            },
+            {
+              "accuracy": 0.7872,
+              "precision": 0.8083,
+              "recall": 0.7872,
+              "f1": 0.7843
+            },
+            {
+              "accuracy": 0.6304,
+              "precision": 0.6307,
+              "recall": 0.6304,
+              "f1": 0.6303
+            },
+            {
+              "accuracy": 0.7609,
+              "precision": 0.7654,
+              "recall": 0.7609,
+              "f1": 0.7598
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8741,
+              "precision": 0.8743,
+              "recall": 0.8741,
+              "f1": 0.8741
+            },
+            {
+              "accuracy": 0.8765,
+              "precision": 0.8765,
+              "recall": 0.8765,
+              "f1": 0.8765
+            },
+            {
+              "accuracy": 0.867,
+              "precision": 0.8673,
+              "recall": 0.867,
+              "f1": 0.867
+            },
+            {
+              "accuracy": 0.8551,
+              "precision": 0.8557,
+              "recall": 0.8551,
+              "f1": 0.855
+            },
+            {
+              "accuracy": 0.9121,
+              "precision": 0.9132,
+              "recall": 0.9121,
+              "f1": 0.912
+            },
+            {
+              "accuracy": 0.9121,
+              "precision": 0.9126,
+              "recall": 0.9121,
+              "f1": 0.9121
+            },
+            {
+              "accuracy": 0.905,
+              "precision": 0.9063,
+              "recall": 0.905,
+              "f1": 0.9049
+            },
+            {
+              "accuracy": 0.9026,
+              "precision": 0.9041,
+              "recall": 0.9026,
+              "f1": 0.9025
+            },
+            {
+              "accuracy": 0.8649,
+              "precision": 0.8649,
+              "recall": 0.8649,
+              "f1": 0.8649
+            },
+            {
+              "accuracy": 0.8626,
+              "precision": 0.8631,
+              "recall": 0.8626,
+              "f1": 0.8625
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                17,
+                6
+              ],
+              [
+                8,
+                16
+              ]
+            ],
+            [
+              [
+                15,
+                8
+              ],
+              [
+                7,
+                17
+              ]
+            ],
+            [
+              [
+                16,
+                7
+              ],
+              [
+                6,
+                18
+              ]
+            ],
+            [
+              [
+                21,
+                2
+              ],
+              [
+                5,
+                19
+              ]
+            ],
+            [
+              [
+                19,
+                5
+              ],
+              [
+                4,
+                19
+              ]
+            ],
+            [
+              [
+                18,
+                6
+              ],
+              [
+                1,
+                22
+              ]
+            ],
+            [
+              [
+                22,
+                2
+              ],
+              [
+                5,
+                18
+              ]
+            ],
+            [
+              [
+                16,
+                8
+              ],
+              [
+                2,
+                21
+              ]
+            ],
+            [
+              [
+                14,
+                9
+              ],
+              [
+                8,
+                15
+              ]
+            ],
+            [
+              [
+                16,
+                7
+              ],
+              [
+                4,
+                19
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                187,
+                24
+              ],
+              [
+                29,
+                181
+              ]
+            ],
+            [
+              [
+                186,
+                25
+              ],
+              [
+                27,
+                183
+              ]
+            ],
+            [
+              [
+                186,
+                25
+              ],
+              [
+                31,
+                179
+              ]
+            ],
+            [
+              [
+                185,
+                26
+              ],
+              [
+                35,
+                175
+              ]
+            ],
+            [
+              [
+                186,
+                24
+              ],
+              [
+                13,
+                198
+              ]
+            ],
+            [
+              [
+                188,
+                22
+              ],
+              [
+                15,
+                196
+              ]
+            ],
+            [
+              [
+                184,
+                26
+              ],
+              [
+                14,
+                197
+              ]
+            ],
+            [
+              [
+                183,
+                27
+              ],
+              [
+                14,
+                197
+              ]
+            ],
+            [
+              [
+                182,
+                29
+              ],
+              [
+                28,
+                183
+              ]
+            ],
+            [
+              [
+                186,
+                25
+              ],
+              [
+                33,
+                178
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 235,
+            "1": 97
+          },
+          "dist_after": {
+            "-1": 234,
+            "1": 234
+          },
+          "n_before": 332,
+          "n_after": 468,
+          "vocab_size": 398,
+          "report": {
+            "Negatif": {
+              "precision": 0.7767857142857143,
+              "recall": 0.7435897435897436,
+              "f1-score": 0.759825327510917,
+              "support": 234.0
+            },
+            "Positif": {
+              "precision": 0.7540983606557377,
+              "recall": 0.7863247863247863,
+              "f1-score": 0.7698744769874477,
+              "support": 234.0
+            },
+            "accuracy": 0.7649572649572649,
+            "macro avg": {
+              "precision": 0.765442037470726,
+              "recall": 0.7649572649572649,
+              "f1-score": 0.7648499022491824,
+              "support": 468.0
+            },
+            "weighted avg": {
+              "precision": 0.765442037470726,
+              "recall": 0.7649572649572649,
+              "f1-score": 0.7648499022491824,
+              "support": 468.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              174,
+              60
+            ],
+            [
+              50,
+              184
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1853,
+              253
+            ],
+            [
+              239,
+              1867
+            ]
+          ]
+        }
+      }
+    },
+    "gp": {
+      "label": "Grafis & Performa",
+      "n_total": 430,
+      "n_folds": 10,
+      "protocol": "balance_then_kfold",
+      "best_scenario": "smote_tomek",
+      "best_from_tuning": "smote_tomek",
+      "best_f1": 0.7585,
+      "scenarios": {
+        "none": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "none",
+          "metrics": {
+            "accuracy": 0.7512,
+            "precision": 0.7583,
+            "recall": 0.7512,
+            "f1": 0.7481
+          },
+          "metrics_std": {
+            "accuracy": 0.0641,
+            "precision": 0.0641,
+            "recall": 0.0641,
+            "f1": 0.0654
+          },
+          "train_metrics": {
+            "accuracy": 0.863,
+            "precision": 0.8631,
+            "recall": 0.863,
+            "f1": 0.8623
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0104,
+            "precision": 0.0105,
+            "recall": 0.0104,
+            "f1": 0.0104
+          },
+          "gap": {
+            "accuracy": 0.1118,
+            "precision": 0.1048,
+            "recall": 0.1118,
+            "f1": 0.1142
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.6279,
+              "precision": 0.6279,
+              "recall": 0.6279,
+              "f1": 0.6279
+            },
+            {
+              "accuracy": 0.6977,
+              "precision": 0.6997,
+              "recall": 0.6977,
+              "f1": 0.6983
+            },
+            {
+              "accuracy": 0.7674,
+              "precision": 0.7838,
+              "recall": 0.7674,
+              "f1": 0.769
+            },
+            {
+              "accuracy": 0.7907,
+              "precision": 0.7897,
+              "recall": 0.7907,
+              "f1": 0.7898
+            },
+            {
+              "accuracy": 0.7209,
+              "precision": 0.737,
+              "recall": 0.7209,
+              "f1": 0.7228
+            },
+            {
+              "accuracy": 0.7442,
+              "precision": 0.7484,
+              "recall": 0.7442,
+              "f1": 0.7352
+            },
+            {
+              "accuracy": 0.7907,
+              "precision": 0.8011,
+              "recall": 0.7907,
+              "f1": 0.7921
+            },
+            {
+              "accuracy": 0.7209,
+              "precision": 0.7401,
+              "recall": 0.7209,
+              "f1": 0.7003
+            },
+            {
+              "accuracy": 0.8837,
+              "precision": 0.8855,
+              "recall": 0.8837,
+              "f1": 0.8841
+            },
+            {
+              "accuracy": 0.7674,
+              "precision": 0.77,
+              "recall": 0.7674,
+              "f1": 0.7615
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8682,
+              "precision": 0.868,
+              "recall": 0.8682,
+              "f1": 0.8676
+            },
+            {
+              "accuracy": 0.8786,
+              "precision": 0.8783,
+              "recall": 0.8786,
+              "f1": 0.8782
+            },
+            {
+              "accuracy": 0.8398,
+              "precision": 0.8393,
+              "recall": 0.8398,
+              "f1": 0.8394
+            },
+            {
+              "accuracy": 0.8656,
+              "precision": 0.8658,
+              "recall": 0.8656,
+              "f1": 0.8648
+            },
+            {
+              "accuracy": 0.8656,
+              "precision": 0.8661,
+              "recall": 0.8656,
+              "f1": 0.8647
+            },
+            {
+              "accuracy": 0.8708,
+              "precision": 0.8706,
+              "recall": 0.8708,
+              "f1": 0.8703
+            },
+            {
+              "accuracy": 0.8579,
+              "precision": 0.8584,
+              "recall": 0.8579,
+              "f1": 0.8568
+            },
+            {
+              "accuracy": 0.8708,
+              "precision": 0.871,
+              "recall": 0.8708,
+              "f1": 0.87
+            },
+            {
+              "accuracy": 0.8527,
+              "precision": 0.8528,
+              "recall": 0.8527,
+              "f1": 0.8518
+            },
+            {
+              "accuracy": 0.8605,
+              "precision": 0.8603,
+              "recall": 0.8605,
+              "f1": 0.8598
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                16,
+                8
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            [
+              [
+                17,
+                7
+              ],
+              [
+                6,
+                13
+              ]
+            ],
+            [
+              [
+                18,
+                7
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                21,
+                4
+              ],
+              [
+                5,
+                13
+              ]
+            ],
+            [
+              [
+                17,
+                8
+              ],
+              [
+                4,
+                14
+              ]
+            ],
+            [
+              [
+                22,
+                3
+              ],
+              [
+                8,
+                10
+              ]
+            ],
+            [
+              [
+                19,
+                6
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                23,
+                2
+              ],
+              [
+                10,
+                8
+              ]
+            ],
+            [
+              [
+                22,
+                3
+              ],
+              [
+                2,
+                16
+              ]
+            ],
+            [
+              [
+                22,
+                3
+              ],
+              [
+                7,
+                11
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                203,
+                21
+              ],
+              [
+                30,
+                133
+              ]
+            ],
+            [
+              [
+                204,
+                20
+              ],
+              [
+                27,
+                136
+              ]
+            ],
+            [
+              [
+                195,
+                28
+              ],
+              [
+                34,
+                130
+              ]
+            ],
+            [
+              [
+                203,
+                20
+              ],
+              [
+                32,
+                132
+              ]
+            ],
+            [
+              [
+                204,
+                19
+              ],
+              [
+                33,
+                131
+              ]
+            ],
+            [
+              [
+                202,
+                21
+              ],
+              [
+                29,
+                135
+              ]
+            ],
+            [
+              [
+                203,
+                20
+              ],
+              [
+                35,
+                129
+              ]
+            ],
+            [
+              [
+                204,
+                19
+              ],
+              [
+                31,
+                133
+              ]
+            ],
+            [
+              [
+                201,
+                22
+              ],
+              [
+                35,
+                129
+              ]
+            ],
+            [
+              [
+                201,
+                22
+              ],
+              [
+                32,
+                132
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 248,
+            "1": 182
+          },
+          "dist_after": {
+            "-1": 248,
+            "1": 182
+          },
+          "n_before": 430,
+          "n_after": 430,
+          "vocab_size": 473,
+          "report": {
+            "Negatif": {
+              "precision": 0.7786561264822134,
+              "recall": 0.7943548387096774,
+              "f1-score": 0.7864271457085829,
+              "support": 248.0
+            },
+            "Positif": {
+              "precision": 0.711864406779661,
+              "recall": 0.6923076923076923,
+              "f1-score": 0.7019498607242339,
+              "support": 182.0
+            },
+            "accuracy": 0.7511627906976744,
+            "macro avg": {
+              "precision": 0.7452602666309371,
+              "recall": 0.7433312655086848,
+              "f1-score": 0.7441885032164084,
+              "support": 430.0
+            },
+            "weighted avg": {
+              "precision": 0.7503861427941563,
+              "recall": 0.7511627906976744,
+              "f1-score": 0.7506716436919514,
+              "support": 430.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              197,
+              51
+            ],
+            [
+              56,
+              126
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              2020,
+              212
+            ],
+            [
+              318,
+              1320
+            ]
+          ]
+        },
+        "smote": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote",
+          "metrics": {
+            "accuracy": 0.7521,
+            "precision": 0.7557,
+            "recall": 0.7521,
+            "f1": 0.7508
+          },
+          "metrics_std": {
+            "accuracy": 0.0509,
+            "precision": 0.0481,
+            "recall": 0.0509,
+            "f1": 0.053
+          },
+          "train_metrics": {
+            "accuracy": 0.8438,
+            "precision": 0.8446,
+            "recall": 0.8438,
+            "f1": 0.8438
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0087,
+            "precision": 0.0084,
+            "recall": 0.0087,
+            "f1": 0.0087
+          },
+          "gap": {
+            "accuracy": 0.0917,
+            "precision": 0.0889,
+            "recall": 0.0917,
+            "f1": 0.093
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.84,
+              "precision": 0.8422,
+              "recall": 0.84,
+              "f1": 0.8397
+            },
+            {
+              "accuracy": 0.78,
+              "precision": 0.7804,
+              "recall": 0.78,
+              "f1": 0.7799
+            },
+            {
+              "accuracy": 0.7,
+              "precision": 0.7003,
+              "recall": 0.7,
+              "f1": 0.6999
+            },
+            {
+              "accuracy": 0.76,
+              "precision": 0.76,
+              "recall": 0.76,
+              "f1": 0.76
+            },
+            {
+              "accuracy": 0.64,
+              "precision": 0.656,
+              "recall": 0.64,
+              "f1": 0.6305
+            },
+            {
+              "accuracy": 0.74,
+              "precision": 0.7435,
+              "recall": 0.74,
+              "f1": 0.7391
+            },
+            {
+              "accuracy": 0.7551,
+              "precision": 0.7629,
+              "recall": 0.7551,
+              "f1": 0.7539
+            },
+            {
+              "accuracy": 0.7551,
+              "precision": 0.7572,
+              "recall": 0.7551,
+              "f1": 0.7549
+            },
+            {
+              "accuracy": 0.7959,
+              "precision": 0.7982,
+              "recall": 0.7959,
+              "f1": 0.7957
+            },
+            {
+              "accuracy": 0.7551,
+              "precision": 0.7564,
+              "recall": 0.7551,
+              "f1": 0.7545
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8341,
+              "precision": 0.8351,
+              "recall": 0.8341,
+              "f1": 0.834
+            },
+            {
+              "accuracy": 0.8318,
+              "precision": 0.8324,
+              "recall": 0.8318,
+              "f1": 0.8318
+            },
+            {
+              "accuracy": 0.8498,
+              "precision": 0.8506,
+              "recall": 0.8498,
+              "f1": 0.8497
+            },
+            {
+              "accuracy": 0.8363,
+              "precision": 0.8375,
+              "recall": 0.8363,
+              "f1": 0.8362
+            },
+            {
+              "accuracy": 0.8475,
+              "precision": 0.8475,
+              "recall": 0.8475,
+              "f1": 0.8475
+            },
+            {
+              "accuracy": 0.8475,
+              "precision": 0.8493,
+              "recall": 0.8475,
+              "f1": 0.8473
+            },
+            {
+              "accuracy": 0.8456,
+              "precision": 0.8465,
+              "recall": 0.8456,
+              "f1": 0.8455
+            },
+            {
+              "accuracy": 0.8345,
+              "precision": 0.8357,
+              "recall": 0.8345,
+              "f1": 0.8343
+            },
+            {
+              "accuracy": 0.8591,
+              "precision": 0.8591,
+              "recall": 0.8591,
+              "f1": 0.8591
+            },
+            {
+              "accuracy": 0.8523,
+              "precision": 0.8523,
+              "recall": 0.8523,
+              "f1": 0.8523
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                22,
+                3
+              ],
+              [
+                5,
+                20
+              ]
+            ],
+            [
+              [
+                19,
+                6
+              ],
+              [
+                5,
+                20
+              ]
+            ],
+            [
+              [
+                17,
+                8
+              ],
+              [
+                7,
+                18
+              ]
+            ],
+            [
+              [
+                19,
+                6
+              ],
+              [
+                6,
+                19
+              ]
+            ],
+            [
+              [
+                20,
+                5
+              ],
+              [
+                13,
+                12
+              ]
+            ],
+            [
+              [
+                17,
+                8
+              ],
+              [
+                5,
+                20
+              ]
+            ],
+            [
+              [
+                20,
+                4
+              ],
+              [
+                8,
+                17
+              ]
+            ],
+            [
+              [
+                19,
+                5
+              ],
+              [
+                7,
+                18
+              ]
+            ],
+            [
+              [
+                19,
+                6
+              ],
+              [
+                4,
+                20
+              ]
+            ],
+            [
+              [
+                20,
+                5
+              ],
+              [
+                7,
+                17
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                192,
+                31
+              ],
+              [
+                43,
+                180
+              ]
+            ],
+            [
+              [
+                190,
+                33
+              ],
+              [
+                42,
+                181
+              ]
+            ],
+            [
+              [
+                195,
+                28
+              ],
+              [
+                39,
+                184
+              ]
+            ],
+            [
+              [
+                193,
+                30
+              ],
+              [
+                43,
+                180
+              ]
+            ],
+            [
+              [
+                189,
+                34
+              ],
+              [
+                34,
+                189
+              ]
+            ],
+            [
+              [
+                197,
+                26
+              ],
+              [
+                42,
+                181
+              ]
+            ],
+            [
+              [
+                195,
+                29
+              ],
+              [
+                40,
+                183
+              ]
+            ],
+            [
+              [
+                194,
+                30
+              ],
+              [
+                44,
+                179
+              ]
+            ],
+            [
+              [
+                191,
+                32
+              ],
+              [
+                31,
+                193
+              ]
+            ],
+            [
+              [
+                190,
+                33
+              ],
+              [
+                33,
+                191
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 248,
+            "1": 182
+          },
+          "dist_after": {
+            "-1": 248,
+            "1": 248
+          },
+          "n_before": 430,
+          "n_after": 496,
+          "vocab_size": 473,
+          "report": {
+            "Negatif": {
+              "precision": 0.7413127413127413,
+              "recall": 0.7741935483870968,
+              "f1-score": 0.757396449704142,
+              "support": 248.0
+            },
+            "Positif": {
+              "precision": 0.7637130801687764,
+              "recall": 0.7298387096774194,
+              "f1-score": 0.7463917525773196,
+              "support": 248.0
+            },
+            "accuracy": 0.7520161290322581,
+            "macro avg": {
+              "precision": 0.7525129107407589,
+              "recall": 0.752016129032258,
+              "f1-score": 0.7518941011407307,
+              "support": 496.0
+            },
+            "weighted avg": {
+              "precision": 0.7525129107407588,
+              "recall": 0.7520161290322581,
+              "f1-score": 0.7518941011407309,
+              "support": 496.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              192,
+              56
+            ],
+            [
+              67,
+              181
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1926,
+              306
+            ],
+            [
+              391,
+              1841
+            ]
+          ]
+        },
+        "tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "tomek",
+          "metrics": {
+            "accuracy": 0.7565,
+            "precision": 0.7614,
+            "recall": 0.7565,
+            "f1": 0.7522
+          },
+          "metrics_std": {
+            "accuracy": 0.0797,
+            "precision": 0.0788,
+            "recall": 0.0797,
+            "f1": 0.0841
+          },
+          "train_metrics": {
+            "accuracy": 0.866,
+            "precision": 0.8661,
+            "recall": 0.866,
+            "f1": 0.8653
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0065,
+            "precision": 0.0066,
+            "recall": 0.0065,
+            "f1": 0.0066
+          },
+          "gap": {
+            "accuracy": 0.1095,
+            "precision": 0.1047,
+            "recall": 0.1095,
+            "f1": 0.1131
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7209,
+              "precision": 0.7306,
+              "recall": 0.7209,
+              "f1": 0.7103
+            },
+            {
+              "accuracy": 0.7209,
+              "precision": 0.7209,
+              "recall": 0.7209,
+              "f1": 0.7209
+            },
+            {
+              "accuracy": 0.8372,
+              "precision": 0.8392,
+              "recall": 0.8372,
+              "f1": 0.8377
+            },
+            {
+              "accuracy": 0.7907,
+              "precision": 0.7897,
+              "recall": 0.7907,
+              "f1": 0.7898
+            },
+            {
+              "accuracy": 0.7209,
+              "precision": 0.7512,
+              "recall": 0.7209,
+              "f1": 0.7218
+            },
+            {
+              "accuracy": 0.6744,
+              "precision": 0.6701,
+              "recall": 0.6744,
+              "f1": 0.6661
+            },
+            {
+              "accuracy": 0.814,
+              "precision": 0.8195,
+              "recall": 0.814,
+              "f1": 0.815
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.675,
+              "recall": 0.6667,
+              "f1": 0.6429
+            },
+            {
+              "accuracy": 0.9286,
+              "precision": 0.9291,
+              "recall": 0.9286,
+              "f1": 0.9283
+            },
+            {
+              "accuracy": 0.6905,
+              "precision": 0.6887,
+              "recall": 0.6905,
+              "f1": 0.6892
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8672,
+              "precision": 0.8669,
+              "recall": 0.8672,
+              "f1": 0.8669
+            },
+            {
+              "accuracy": 0.8672,
+              "precision": 0.867,
+              "recall": 0.8672,
+              "f1": 0.8666
+            },
+            {
+              "accuracy": 0.8542,
+              "precision": 0.854,
+              "recall": 0.8542,
+              "f1": 0.8535
+            },
+            {
+              "accuracy": 0.8594,
+              "precision": 0.8595,
+              "recall": 0.8594,
+              "f1": 0.8586
+            },
+            {
+              "accuracy": 0.862,
+              "precision": 0.8623,
+              "recall": 0.862,
+              "f1": 0.8611
+            },
+            {
+              "accuracy": 0.875,
+              "precision": 0.8753,
+              "recall": 0.875,
+              "f1": 0.8743
+            },
+            {
+              "accuracy": 0.8698,
+              "precision": 0.8708,
+              "recall": 0.8698,
+              "f1": 0.8687
+            },
+            {
+              "accuracy": 0.8727,
+              "precision": 0.8729,
+              "recall": 0.8727,
+              "f1": 0.8721
+            },
+            {
+              "accuracy": 0.8597,
+              "precision": 0.8602,
+              "recall": 0.8597,
+              "f1": 0.8588
+            },
+            {
+              "accuracy": 0.8727,
+              "precision": 0.8725,
+              "recall": 0.8727,
+              "f1": 0.8723
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                21,
+                3
+              ],
+              [
+                9,
+                10
+              ]
+            ],
+            [
+              [
+                18,
+                6
+              ],
+              [
+                6,
+                13
+              ]
+            ],
+            [
+              [
+                21,
+                4
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                21,
+                4
+              ],
+              [
+                5,
+                13
+              ]
+            ],
+            [
+              [
+                16,
+                9
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                20,
+                5
+              ],
+              [
+                9,
+                9
+              ]
+            ],
+            [
+              [
+                20,
+                5
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                21,
+                3
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            [
+              [
+                23,
+                1
+              ],
+              [
+                2,
+                16
+              ]
+            ],
+            [
+              [
+                18,
+                6
+              ],
+              [
+                7,
+                11
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                198,
+                23
+              ],
+              [
+                28,
+                135
+              ]
+            ],
+            [
+              [
+                200,
+                21
+              ],
+              [
+                30,
+                133
+              ]
+            ],
+            [
+              [
+                197,
+                23
+              ],
+              [
+                33,
+                131
+              ]
+            ],
+            [
+              [
+                199,
+                21
+              ],
+              [
+                33,
+                131
+              ]
+            ],
+            [
+              [
+                200,
+                20
+              ],
+              [
+                33,
+                131
+              ]
+            ],
+            [
+              [
+                202,
+                18
+              ],
+              [
+                30,
+                134
+              ]
+            ],
+            [
+              [
+                203,
+                17
+              ],
+              [
+                33,
+                131
+              ]
+            ],
+            [
+              [
+                202,
+                19
+              ],
+              [
+                30,
+                134
+              ]
+            ],
+            [
+              [
+                201,
+                20
+              ],
+              [
+                34,
+                130
+              ]
+            ],
+            [
+              [
+                200,
+                21
+              ],
+              [
+                28,
+                136
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 248,
+            "1": 182
+          },
+          "dist_after": {
+            "-1": 245,
+            "1": 182
+          },
+          "n_before": 430,
+          "n_after": 427,
+          "vocab_size": 473,
+          "report": {
+            "Negatif": {
+              "precision": 0.77431906614786,
+              "recall": 0.8122448979591836,
+              "f1-score": 0.7928286852589641,
+              "support": 245.0
+            },
+            "Positif": {
+              "precision": 0.7294117647058823,
+              "recall": 0.6813186813186813,
+              "f1-score": 0.7045454545454546,
+              "support": 182.0
+            },
+            "accuracy": 0.7564402810304449,
+            "macro avg": {
+              "precision": 0.7518654154268711,
+              "recall": 0.7467817896389325,
+              "f1-score": 0.7486870699022093,
+              "support": 427.0
+            },
+            "weighted avg": {
+              "precision": 0.7551782491398039,
+              "recall": 0.7564402810304449,
+              "f1-score": 0.7551997672499272,
+              "support": 427.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              199,
+              46
+            ],
+            [
+              58,
+              124
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              2002,
+              203
+            ],
+            [
+              312,
+              1326
+            ]
+          ]
+        },
+        "smote_tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote_tomek",
+          "metrics": {
+            "accuracy": 0.7602,
+            "precision": 0.7651,
+            "recall": 0.7602,
+            "f1": 0.7585
+          },
+          "metrics_std": {
+            "accuracy": 0.0596,
+            "precision": 0.0543,
+            "recall": 0.0596,
+            "f1": 0.0619
+          },
+          "train_metrics": {
+            "accuracy": 0.8518,
+            "precision": 0.8522,
+            "recall": 0.8518,
+            "f1": 0.8518
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0092,
+            "precision": 0.009,
+            "recall": 0.0092,
+            "f1": 0.0092
+          },
+          "gap": {
+            "accuracy": 0.0916,
+            "precision": 0.0871,
+            "recall": 0.0916,
+            "f1": 0.0933
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.8,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8
+            },
+            {
+              "accuracy": 0.72,
+              "precision": 0.7334,
+              "recall": 0.72,
+              "f1": 0.7159
+            },
+            {
+              "accuracy": 0.7143,
+              "precision": 0.7143,
+              "recall": 0.7143,
+              "f1": 0.7143
+            },
+            {
+              "accuracy": 0.7755,
+              "precision": 0.7803,
+              "recall": 0.7755,
+              "f1": 0.7749
+            },
+            {
+              "accuracy": 0.6531,
+              "precision": 0.6795,
+              "recall": 0.6531,
+              "f1": 0.6424
+            },
+            {
+              "accuracy": 0.8163,
+              "precision": 0.817,
+              "recall": 0.8163,
+              "f1": 0.8163
+            },
+            {
+              "accuracy": 0.7755,
+              "precision": 0.7762,
+              "recall": 0.7755,
+              "f1": 0.7755
+            },
+            {
+              "accuracy": 0.7347,
+              "precision": 0.7349,
+              "recall": 0.7347,
+              "f1": 0.7345
+            },
+            {
+              "accuracy": 0.7347,
+              "precision": 0.7376,
+              "recall": 0.7347,
+              "f1": 0.7334
+            },
+            {
+              "accuracy": 0.8776,
+              "precision": 0.8776,
+              "recall": 0.8776,
+              "f1": 0.8776
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8462,
+              "precision": 0.8466,
+              "recall": 0.8462,
+              "f1": 0.8461
+            },
+            {
+              "accuracy": 0.8416,
+              "precision": 0.8426,
+              "recall": 0.8416,
+              "f1": 0.8415
+            },
+            {
+              "accuracy": 0.8465,
+              "precision": 0.8469,
+              "recall": 0.8465,
+              "f1": 0.8464
+            },
+            {
+              "accuracy": 0.8397,
+              "precision": 0.8403,
+              "recall": 0.8397,
+              "f1": 0.8397
+            },
+            {
+              "accuracy": 0.8533,
+              "precision": 0.8533,
+              "recall": 0.8533,
+              "f1": 0.8533
+            },
+            {
+              "accuracy": 0.8488,
+              "precision": 0.8499,
+              "recall": 0.8488,
+              "f1": 0.8486
+            },
+            {
+              "accuracy": 0.86,
+              "precision": 0.86,
+              "recall": 0.86,
+              "f1": 0.86
+            },
+            {
+              "accuracy": 0.8668,
+              "precision": 0.8668,
+              "recall": 0.8668,
+              "f1": 0.8668
+            },
+            {
+              "accuracy": 0.8668,
+              "precision": 0.8669,
+              "recall": 0.8668,
+              "f1": 0.8668
+            },
+            {
+              "accuracy": 0.8488,
+              "precision": 0.8488,
+              "recall": 0.8488,
+              "f1": 0.8488
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                20,
+                5
+              ],
+              [
+                5,
+                20
+              ]
+            ],
+            [
+              [
+                15,
+                10
+              ],
+              [
+                4,
+                21
+              ]
+            ],
+            [
+              [
+                17,
+                7
+              ],
+              [
+                7,
+                18
+              ]
+            ],
+            [
+              [
+                20,
+                4
+              ],
+              [
+                7,
+                18
+              ]
+            ],
+            [
+              [
+                20,
+                4
+              ],
+              [
+                13,
+                12
+              ]
+            ],
+            [
+              [
+                20,
+                4
+              ],
+              [
+                5,
+                20
+              ]
+            ],
+            [
+              [
+                19,
+                6
+              ],
+              [
+                5,
+                19
+              ]
+            ],
+            [
+              [
+                19,
+                6
+              ],
+              [
+                7,
+                17
+              ]
+            ],
+            [
+              [
+                20,
+                5
+              ],
+              [
+                8,
+                16
+              ]
+            ],
+            [
+              [
+                22,
+                3
+              ],
+              [
+                3,
+                21
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                191,
+                30
+              ],
+              [
+                38,
+                183
+              ]
+            ],
+            [
+              [
+                192,
+                29
+              ],
+              [
+                41,
+                180
+              ]
+            ],
+            [
+              [
+                192,
+                30
+              ],
+              [
+                38,
+                183
+              ]
+            ],
+            [
+              [
+                191,
+                31
+              ],
+              [
+                40,
+                181
+              ]
+            ],
+            [
+              [
+                191,
+                31
+              ],
+              [
+                34,
+                187
+              ]
+            ],
+            [
+              [
+                195,
+                27
+              ],
+              [
+                40,
+                181
+              ]
+            ],
+            [
+              [
+                190,
+                31
+              ],
+              [
+                31,
+                191
+              ]
+            ],
+            [
+              [
+                192,
+                29
+              ],
+              [
+                30,
+                192
+              ]
+            ],
+            [
+              [
+                190,
+                31
+              ],
+              [
+                28,
+                194
+              ]
+            ],
+            [
+              [
+                188,
+                33
+              ],
+              [
+                34,
+                188
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 248,
+            "1": 182
+          },
+          "dist_after": {
+            "-1": 246,
+            "1": 246
+          },
+          "n_before": 430,
+          "n_after": 492,
+          "vocab_size": 473,
+          "report": {
+            "Negatif": {
+              "precision": 0.75,
+              "recall": 0.7804878048780488,
+              "f1-score": 0.7649402390438247,
+              "support": 246.0
+            },
+            "Positif": {
+              "precision": 0.7711864406779662,
+              "recall": 0.7398373983739838,
+              "f1-score": 0.7551867219917012,
+              "support": 246.0
+            },
+            "accuracy": 0.7601626016260162,
+            "macro avg": {
+              "precision": 0.7605932203389831,
+              "recall": 0.7601626016260163,
+              "f1-score": 0.760063480517763,
+              "support": 492.0
+            },
+            "weighted avg": {
+              "precision": 0.7605932203389831,
+              "recall": 0.7601626016260162,
+              "f1-score": 0.760063480517763,
+              "support": 492.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              192,
+              54
+            ],
+            [
+              64,
+              182
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1912,
+              302
+            ],
+            [
+              354,
+              1860
+            ]
+          ]
+        }
+      }
+    },
+    "f": {
+      "label": "Fitur",
+      "n_total": 329,
+      "n_folds": 10,
+      "protocol": "balance_then_kfold",
+      "best_scenario": "none",
+      "best_from_tuning": "smote",
+      "best_f1": 0.7465,
+      "scenarios": {
+        "none": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "none",
+          "metrics": {
+            "accuracy": 0.7508,
+            "precision": 0.7541,
+            "recall": 0.7508,
+            "f1": 0.7465
+          },
+          "metrics_std": {
+            "accuracy": 0.0445,
+            "precision": 0.0438,
+            "recall": 0.0445,
+            "f1": 0.0448
+          },
+          "train_metrics": {
+            "accuracy": 0.875,
+            "precision": 0.8742,
+            "recall": 0.875,
+            "f1": 0.8738
+          },
+          "train_metrics_std": {
+            "accuracy": 0.01,
+            "precision": 0.0102,
+            "recall": 0.01,
+            "f1": 0.0103
+          },
+          "gap": {
+            "accuracy": 0.1242,
+            "precision": 0.1201,
+            "recall": 0.1242,
+            "f1": 0.1273
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7248,
+              "recall": 0.7273,
+              "f1": 0.7059
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7197,
+              "recall": 0.7273,
+              "f1": 0.7169
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7197,
+              "recall": 0.7273,
+              "f1": 0.7169
+            },
+            {
+              "accuracy": 0.7576,
+              "precision": 0.7576,
+              "recall": 0.7576,
+              "f1": 0.7576
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7231,
+              "recall": 0.7273,
+              "f1": 0.7245
+            },
+            {
+              "accuracy": 0.697,
+              "precision": 0.7286,
+              "recall": 0.697,
+              "f1": 0.7027
+            },
+            {
+              "accuracy": 0.8182,
+              "precision": 0.8166,
+              "recall": 0.8182,
+              "f1": 0.814
+            },
+            {
+              "accuracy": 0.8485,
+              "precision": 0.8535,
+              "recall": 0.8485,
+              "f1": 0.8427
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7329,
+              "recall": 0.7273,
+              "f1": 0.7294
+            },
+            {
+              "accuracy": 0.75,
+              "precision": 0.7642,
+              "recall": 0.75,
+              "f1": 0.7542
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8885,
+              "precision": 0.8878,
+              "recall": 0.8885,
+              "f1": 0.8879
+            },
+            {
+              "accuracy": 0.8682,
+              "precision": 0.8673,
+              "recall": 0.8682,
+              "f1": 0.8669
+            },
+            {
+              "accuracy": 0.8784,
+              "precision": 0.8778,
+              "recall": 0.8784,
+              "f1": 0.877
+            },
+            {
+              "accuracy": 0.8851,
+              "precision": 0.8844,
+              "recall": 0.8851,
+              "f1": 0.8844
+            },
+            {
+              "accuracy": 0.875,
+              "precision": 0.8741,
+              "recall": 0.875,
+              "f1": 0.874
+            },
+            {
+              "accuracy": 0.8851,
+              "precision": 0.8847,
+              "recall": 0.8851,
+              "f1": 0.8838
+            },
+            {
+              "accuracy": 0.8615,
+              "precision": 0.8605,
+              "recall": 0.8615,
+              "f1": 0.8597
+            },
+            {
+              "accuracy": 0.8581,
+              "precision": 0.8569,
+              "recall": 0.8581,
+              "f1": 0.8565
+            },
+            {
+              "accuracy": 0.8682,
+              "precision": 0.8673,
+              "recall": 0.8682,
+              "f1": 0.8669
+            },
+            {
+              "accuracy": 0.8822,
+              "precision": 0.8814,
+              "recall": 0.8822,
+              "f1": 0.8813
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                19,
+                2
+              ],
+              [
+                7,
+                5
+              ]
+            ],
+            [
+              [
+                18,
+                3
+              ],
+              [
+                6,
+                6
+              ]
+            ],
+            [
+              [
+                18,
+                3
+              ],
+              [
+                6,
+                6
+              ]
+            ],
+            [
+              [
+                17,
+                4
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              [
+                17,
+                4
+              ],
+              [
+                5,
+                7
+              ]
+            ],
+            [
+              [
+                14,
+                7
+              ],
+              [
+                3,
+                9
+              ]
+            ],
+            [
+              [
+                19,
+                2
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              [
+                20,
+                1
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                3,
+                8
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                175,
+                14
+              ],
+              [
+                19,
+                88
+              ]
+            ],
+            [
+              [
+                174,
+                15
+              ],
+              [
+                24,
+                83
+              ]
+            ],
+            [
+              [
+                176,
+                13
+              ],
+              [
+                23,
+                84
+              ]
+            ],
+            [
+              [
+                175,
+                14
+              ],
+              [
+                20,
+                87
+              ]
+            ],
+            [
+              [
+                174,
+                15
+              ],
+              [
+                22,
+                85
+              ]
+            ],
+            [
+              [
+                177,
+                12
+              ],
+              [
+                22,
+                85
+              ]
+            ],
+            [
+              [
+                174,
+                15
+              ],
+              [
+                26,
+                81
+              ]
+            ],
+            [
+              [
+                173,
+                16
+              ],
+              [
+                26,
+                81
+              ]
+            ],
+            [
+              [
+                174,
+                15
+              ],
+              [
+                24,
+                83
+              ]
+            ],
+            [
+              [
+                175,
+                14
+              ],
+              [
+                21,
+                87
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 210,
+            "1": 119
+          },
+          "dist_after": {
+            "-1": 210,
+            "1": 119
+          },
+          "n_before": 329,
+          "n_after": 329,
+          "vocab_size": 419,
+          "report": {
+            "Negatif": {
+              "precision": 0.7909090909090909,
+              "recall": 0.8285714285714286,
+              "f1-score": 0.8093023255813954,
+              "support": 210.0
+            },
+            "Positif": {
+              "precision": 0.6697247706422018,
+              "recall": 0.6134453781512605,
+              "f1-score": 0.6403508771929824,
+              "support": 119.0
+            },
+            "accuracy": 0.7507598784194529,
+            "macro avg": {
+              "precision": 0.7303169307756463,
+              "recall": 0.7210084033613446,
+              "f1-score": 0.7248266013871889,
+              "support": 329.0
+            },
+            "weighted avg": {
+              "precision": 0.7470764644295779,
+              "recall": 0.7507598784194529,
+              "f1-score": 0.7481922272281397,
+              "support": 329.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              174,
+              36
+            ],
+            [
+              46,
+              73
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1747,
+              143
+            ],
+            [
+              227,
+              844
+            ]
+          ]
+        },
+        "smote": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote",
+          "metrics": {
+            "accuracy": 0.7452,
+            "precision": 0.7523,
+            "recall": 0.7452,
+            "f1": 0.7434
+          },
+          "metrics_std": {
+            "accuracy": 0.0665,
+            "precision": 0.0678,
+            "recall": 0.0665,
+            "f1": 0.0671
+          },
+          "train_metrics": {
+            "accuracy": 0.8598,
+            "precision": 0.8603,
+            "recall": 0.8598,
+            "f1": 0.8598
+          },
+          "train_metrics_std": {
+            "accuracy": 0.0082,
+            "precision": 0.0083,
+            "recall": 0.0082,
+            "f1": 0.0082
+          },
+          "gap": {
+            "accuracy": 0.1146,
+            "precision": 0.108,
+            "recall": 0.1146,
+            "f1": 0.1164
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7143,
+              "precision": 0.7162,
+              "recall": 0.7143,
+              "f1": 0.7136
+            },
+            {
+              "accuracy": 0.7857,
+              "precision": 0.7917,
+              "recall": 0.7857,
+              "f1": 0.7846
+            },
+            {
+              "accuracy": 0.8095,
+              "precision": 0.8124,
+              "recall": 0.8095,
+              "f1": 0.8091
+            },
+            {
+              "accuracy": 0.7381,
+              "precision": 0.7524,
+              "recall": 0.7381,
+              "f1": 0.7343
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6729,
+              "recall": 0.6667,
+              "f1": 0.6636
+            },
+            {
+              "accuracy": 0.7619,
+              "precision": 0.7852,
+              "recall": 0.7619,
+              "f1": 0.7569
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6729,
+              "recall": 0.6667,
+              "f1": 0.6636
+            },
+            {
+              "accuracy": 0.881,
+              "precision": 0.8889,
+              "recall": 0.881,
+              "f1": 0.8803
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6682,
+              "recall": 0.6667,
+              "f1": 0.6659
+            },
+            {
+              "accuracy": 0.7619,
+              "precision": 0.7619,
+              "recall": 0.7619,
+              "f1": 0.7619
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8704,
+              "precision": 0.8705,
+              "recall": 0.8704,
+              "f1": 0.8704
+            },
+            {
+              "accuracy": 0.8624,
+              "precision": 0.8635,
+              "recall": 0.8624,
+              "f1": 0.8623
+            },
+            {
+              "accuracy": 0.8598,
+              "precision": 0.8598,
+              "recall": 0.8598,
+              "f1": 0.8598
+            },
+            {
+              "accuracy": 0.8598,
+              "precision": 0.86,
+              "recall": 0.8598,
+              "f1": 0.8598
+            },
+            {
+              "accuracy": 0.8439,
+              "precision": 0.8444,
+              "recall": 0.8439,
+              "f1": 0.8439
+            },
+            {
+              "accuracy": 0.8677,
+              "precision": 0.8698,
+              "recall": 0.8677,
+              "f1": 0.8675
+            },
+            {
+              "accuracy": 0.8598,
+              "precision": 0.86,
+              "recall": 0.8598,
+              "f1": 0.8598
+            },
+            {
+              "accuracy": 0.8519,
+              "precision": 0.852,
+              "recall": 0.8519,
+              "f1": 0.8518
+            },
+            {
+              "accuracy": 0.8704,
+              "precision": 0.8705,
+              "recall": 0.8704,
+              "f1": 0.8704
+            },
+            {
+              "accuracy": 0.8519,
+              "precision": 0.8525,
+              "recall": 0.8519,
+              "f1": 0.8518
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                14,
+                7
+              ],
+              [
+                5,
+                16
+              ]
+            ],
+            [
+              [
+                15,
+                6
+              ],
+              [
+                3,
+                18
+              ]
+            ],
+            [
+              [
+                18,
+                3
+              ],
+              [
+                5,
+                16
+              ]
+            ],
+            [
+              [
+                13,
+                8
+              ],
+              [
+                3,
+                18
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                9,
+                12
+              ]
+            ],
+            [
+              [
+                13,
+                8
+              ],
+              [
+                2,
+                19
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                9,
+                12
+              ]
+            ],
+            [
+              [
+                20,
+                1
+              ],
+              [
+                4,
+                17
+              ]
+            ],
+            [
+              [
+                13,
+                8
+              ],
+              [
+                6,
+                15
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                5,
+                16
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                166,
+                23
+              ],
+              [
+                26,
+                163
+              ]
+            ],
+            [
+              [
+                168,
+                21
+              ],
+              [
+                31,
+                158
+              ]
+            ],
+            [
+              [
+                163,
+                26
+              ],
+              [
+                27,
+                162
+              ]
+            ],
+            [
+              [
+                165,
+                24
+              ],
+              [
+                29,
+                160
+              ]
+            ],
+            [
+              [
+                163,
+                26
+              ],
+              [
+                33,
+                156
+              ]
+            ],
+            [
+              [
+                171,
+                18
+              ],
+              [
+                32,
+                157
+              ]
+            ],
+            [
+              [
+                165,
+                24
+              ],
+              [
+                29,
+                160
+              ]
+            ],
+            [
+              [
+                163,
+                26
+              ],
+              [
+                30,
+                159
+              ]
+            ],
+            [
+              [
+                166,
+                23
+              ],
+              [
+                26,
+                163
+              ]
+            ],
+            [
+              [
+                165,
+                24
+              ],
+              [
+                32,
+                157
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 210,
+            "1": 119
+          },
+          "dist_after": {
+            "-1": 210,
+            "1": 210
+          },
+          "n_before": 329,
+          "n_after": 420,
+          "vocab_size": 419,
+          "report": {
+            "Negatif": {
+              "precision": 0.751219512195122,
+              "recall": 0.7333333333333333,
+              "f1-score": 0.7421686746987952,
+              "support": 210.0
+            },
+            "Positif": {
+              "precision": 0.7395348837209302,
+              "recall": 0.7571428571428571,
+              "f1-score": 0.7482352941176471,
+              "support": 210.0
+            },
+            "accuracy": 0.7452380952380953,
+            "macro avg": {
+              "precision": 0.7453771979580261,
+              "recall": 0.7452380952380953,
+              "f1-score": 0.7452019844082212,
+              "support": 420.0
+            },
+            "weighted avg": {
+              "precision": 0.745377197958026,
+              "recall": 0.7452380952380953,
+              "f1-score": 0.7452019844082213,
+              "support": 420.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              154,
+              56
+            ],
+            [
+              51,
+              159
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1655,
+              235
+            ],
+            [
+              295,
+              1595
+            ]
+          ]
+        },
+        "tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "tomek",
+          "metrics": {
+            "accuracy": 0.7394,
+            "precision": 0.7404,
+            "recall": 0.7394,
+            "f1": 0.7354
+          },
+          "metrics_std": {
+            "accuracy": 0.0491,
+            "precision": 0.0508,
+            "recall": 0.0491,
+            "f1": 0.0515
+          },
+          "train_metrics": {
+            "accuracy": 0.8756,
+            "precision": 0.8749,
+            "recall": 0.8756,
+            "f1": 0.8744
+          },
+          "train_metrics_std": {
+            "accuracy": 0.008,
+            "precision": 0.008,
+            "recall": 0.008,
+            "f1": 0.0084
+          },
+          "gap": {
+            "accuracy": 0.1362,
+            "precision": 0.1345,
+            "recall": 0.1362,
+            "f1": 0.139
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7329,
+              "recall": 0.7273,
+              "f1": 0.7294
+            },
+            {
+              "accuracy": 0.7576,
+              "precision": 0.7564,
+              "recall": 0.7576,
+              "f1": 0.7439
+            },
+            {
+              "accuracy": 0.8182,
+              "precision": 0.8182,
+              "recall": 0.8182,
+              "f1": 0.8182
+            },
+            {
+              "accuracy": 0.697,
+              "precision": 0.6885,
+              "recall": 0.697,
+              "f1": 0.6901
+            },
+            {
+              "accuracy": 0.7273,
+              "precision": 0.7197,
+              "recall": 0.7273,
+              "f1": 0.7169
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6889,
+              "recall": 0.6667,
+              "f1": 0.6724
+            },
+            {
+              "accuracy": 0.7188,
+              "precision": 0.7134,
+              "recall": 0.7188,
+              "f1": 0.7153
+            },
+            {
+              "accuracy": 0.6875,
+              "precision": 0.6771,
+              "recall": 0.6875,
+              "f1": 0.6705
+            },
+            {
+              "accuracy": 0.7812,
+              "precision": 0.7859,
+              "recall": 0.7812,
+              "f1": 0.7828
+            },
+            {
+              "accuracy": 0.8125,
+              "precision": 0.8234,
+              "recall": 0.8125,
+              "f1": 0.8148
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8874,
+              "precision": 0.8867,
+              "recall": 0.8874,
+              "f1": 0.8865
+            },
+            {
+              "accuracy": 0.8771,
+              "precision": 0.8769,
+              "recall": 0.8771,
+              "f1": 0.8754
+            },
+            {
+              "accuracy": 0.8703,
+              "precision": 0.8694,
+              "recall": 0.8703,
+              "f1": 0.8692
+            },
+            {
+              "accuracy": 0.8805,
+              "precision": 0.8798,
+              "recall": 0.8805,
+              "f1": 0.8796
+            },
+            {
+              "accuracy": 0.8771,
+              "precision": 0.8763,
+              "recall": 0.8771,
+              "f1": 0.8763
+            },
+            {
+              "accuracy": 0.8771,
+              "precision": 0.8766,
+              "recall": 0.8771,
+              "f1": 0.8757
+            },
+            {
+              "accuracy": 0.8639,
+              "precision": 0.8634,
+              "recall": 0.8639,
+              "f1": 0.8621
+            },
+            {
+              "accuracy": 0.8844,
+              "precision": 0.8836,
+              "recall": 0.8844,
+              "f1": 0.8836
+            },
+            {
+              "accuracy": 0.8776,
+              "precision": 0.8767,
+              "recall": 0.8776,
+              "f1": 0.8768
+            },
+            {
+              "accuracy": 0.8605,
+              "precision": 0.8599,
+              "recall": 0.8605,
+              "f1": 0.8584
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                16,
+                5
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              [
+                19,
+                2
+              ],
+              [
+                6,
+                6
+              ]
+            ],
+            [
+              [
+                18,
+                3
+              ],
+              [
+                3,
+                9
+              ]
+            ],
+            [
+              [
+                17,
+                4
+              ],
+              [
+                6,
+                6
+              ]
+            ],
+            [
+              [
+                18,
+                3
+              ],
+              [
+                6,
+                6
+              ]
+            ],
+            [
+              [
+                14,
+                7
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              [
+                17,
+                4
+              ],
+              [
+                5,
+                6
+              ]
+            ],
+            [
+              [
+                17,
+                3
+              ],
+              [
+                7,
+                5
+              ]
+            ],
+            [
+              [
+                16,
+                4
+              ],
+              [
+                3,
+                9
+              ]
+            ],
+            [
+              [
+                16,
+                4
+              ],
+              [
+                2,
+                10
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                173,
+                13
+              ],
+              [
+                20,
+                87
+              ]
+            ],
+            [
+              [
+                174,
+                12
+              ],
+              [
+                24,
+                83
+              ]
+            ],
+            [
+              [
+                171,
+                15
+              ],
+              [
+                23,
+                84
+              ]
+            ],
+            [
+              [
+                172,
+                14
+              ],
+              [
+                21,
+                86
+              ]
+            ],
+            [
+              [
+                171,
+                15
+              ],
+              [
+                21,
+                86
+              ]
+            ],
+            [
+              [
+                173,
+                13
+              ],
+              [
+                23,
+                84
+              ]
+            ],
+            [
+              [
+                172,
+                14
+              ],
+              [
+                26,
+                82
+              ]
+            ],
+            [
+              [
+                173,
+                14
+              ],
+              [
+                20,
+                87
+              ]
+            ],
+            [
+              [
+                172,
+                15
+              ],
+              [
+                21,
+                86
+              ]
+            ],
+            [
+              [
+                173,
+                14
+              ],
+              [
+                27,
+                80
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 210,
+            "1": 119
+          },
+          "dist_after": {
+            "-1": 207,
+            "1": 119
+          },
+          "n_before": 329,
+          "n_after": 326,
+          "vocab_size": 419,
+          "report": {
+            "Negatif": {
+              "precision": 0.7850467289719626,
+              "recall": 0.8115942028985508,
+              "f1-score": 0.7980997624703088,
+              "support": 207.0
+            },
+            "Positif": {
+              "precision": 0.6517857142857143,
+              "recall": 0.6134453781512605,
+              "f1-score": 0.6320346320346321,
+              "support": 119.0
+            },
+            "accuracy": 0.7392638036809815,
+            "macro avg": {
+              "precision": 0.7184162216288384,
+              "recall": 0.7125197905249057,
+              "f1-score": 0.7150671972524705,
+              "support": 326.0
+            },
+            "weighted avg": {
+              "precision": 0.7364023708502953,
+              "recall": 0.7392638036809815,
+              "f1-score": 0.7374808958388808,
+              "support": 326.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              168,
+              39
+            ],
+            [
+              46,
+              73
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1724,
+              139
+            ],
+            [
+              226,
+              845
+            ]
+          ]
+        },
+        "smote_tomek": {
+          "protocol": "balance_then_kfold",
+          "balance_method": "smote_tomek",
+          "metrics": {
+            "accuracy": 0.7302,
+            "precision": 0.7355,
+            "recall": 0.7302,
+            "f1": 0.7283
+          },
+          "metrics_std": {
+            "accuracy": 0.0711,
+            "precision": 0.0699,
+            "recall": 0.0711,
+            "f1": 0.0722
+          },
+          "train_metrics": {
+            "accuracy": 0.8591,
+            "precision": 0.8593,
+            "recall": 0.8591,
+            "f1": 0.8591
+          },
+          "train_metrics_std": {
+            "accuracy": 0.01,
+            "precision": 0.01,
+            "recall": 0.01,
+            "f1": 0.01
+          },
+          "gap": {
+            "accuracy": 0.1289,
+            "precision": 0.1238,
+            "recall": 0.1289,
+            "f1": 0.1308
+          },
+          "fold_metrics": [
+            {
+              "accuracy": 0.6905,
+              "precision": 0.7143,
+              "recall": 0.6905,
+              "f1": 0.6816
+            },
+            {
+              "accuracy": 0.7143,
+              "precision": 0.7162,
+              "recall": 0.7143,
+              "f1": 0.7136
+            },
+            {
+              "accuracy": 0.7857,
+              "precision": 0.7864,
+              "recall": 0.7857,
+              "f1": 0.7856
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6729,
+              "recall": 0.6667,
+              "f1": 0.6636
+            },
+            {
+              "accuracy": 0.619,
+              "precision": 0.6201,
+              "recall": 0.619,
+              "f1": 0.6182
+            },
+            {
+              "accuracy": 0.7381,
+              "precision": 0.7431,
+              "recall": 0.7381,
+              "f1": 0.7368
+            },
+            {
+              "accuracy": 0.7381,
+              "precision": 0.7386,
+              "recall": 0.7381,
+              "f1": 0.7379
+            },
+            {
+              "accuracy": 0.6667,
+              "precision": 0.6729,
+              "recall": 0.6667,
+              "f1": 0.6636
+            },
+            {
+              "accuracy": 0.8293,
+              "precision": 0.837,
+              "recall": 0.8293,
+              "f1": 0.8287
+            },
+            {
+              "accuracy": 0.8537,
+              "precision": 0.8537,
+              "recall": 0.8537,
+              "f1": 0.8537
+            }
+          ],
+          "train_fold_metrics": [
+            {
+              "accuracy": 0.8723,
+              "precision": 0.8725,
+              "recall": 0.8723,
+              "f1": 0.8723
+            },
+            {
+              "accuracy": 0.859,
+              "precision": 0.8593,
+              "recall": 0.859,
+              "f1": 0.859
+            },
+            {
+              "accuracy": 0.8511,
+              "precision": 0.8514,
+              "recall": 0.8511,
+              "f1": 0.851
+            },
+            {
+              "accuracy": 0.8644,
+              "precision": 0.8649,
+              "recall": 0.8644,
+              "f1": 0.8643
+            },
+            {
+              "accuracy": 0.8511,
+              "precision": 0.8511,
+              "recall": 0.8511,
+              "f1": 0.8511
+            },
+            {
+              "accuracy": 0.859,
+              "precision": 0.8591,
+              "recall": 0.859,
+              "f1": 0.859
+            },
+            {
+              "accuracy": 0.8697,
+              "precision": 0.8697,
+              "recall": 0.8697,
+              "f1": 0.8697
+            },
+            {
+              "accuracy": 0.8697,
+              "precision": 0.8698,
+              "recall": 0.8697,
+              "f1": 0.8697
+            },
+            {
+              "accuracy": 0.8568,
+              "precision": 0.8569,
+              "recall": 0.8568,
+              "f1": 0.8567
+            },
+            {
+              "accuracy": 0.8382,
+              "precision": 0.8383,
+              "recall": 0.8382,
+              "f1": 0.8382
+            }
+          ],
+          "fold_cms": [
+            [
+              [
+                11,
+                10
+              ],
+              [
+                3,
+                18
+              ]
+            ],
+            [
+              [
+                14,
+                7
+              ],
+              [
+                5,
+                16
+              ]
+            ],
+            [
+              [
+                17,
+                4
+              ],
+              [
+                5,
+                16
+              ]
+            ],
+            [
+              [
+                12,
+                9
+              ],
+              [
+                5,
+                16
+              ]
+            ],
+            [
+              [
+                14,
+                7
+              ],
+              [
+                9,
+                12
+              ]
+            ],
+            [
+              [
+                17,
+                4
+              ],
+              [
+                7,
+                14
+              ]
+            ],
+            [
+              [
+                15,
+                6
+              ],
+              [
+                5,
+                16
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                9,
+                12
+              ]
+            ],
+            [
+              [
+                16,
+                5
+              ],
+              [
+                2,
+                18
+              ]
+            ],
+            [
+              [
+                17,
+                3
+              ],
+              [
+                3,
+                18
+              ]
+            ]
+          ],
+          "train_fold_cms": [
+            [
+              [
+                166,
+                22
+              ],
+              [
+                26,
+                162
+              ]
+            ],
+            [
+              [
+                164,
+                24
+              ],
+              [
+                29,
+                159
+              ]
+            ],
+            [
+              [
+                163,
+                25
+              ],
+              [
+                31,
+                157
+              ]
+            ],
+            [
+              [
+                166,
+                22
+              ],
+              [
+                29,
+                159
+              ]
+            ],
+            [
+              [
+                161,
+                27
+              ],
+              [
+                29,
+                159
+              ]
+            ],
+            [
+              [
+                163,
+                25
+              ],
+              [
+                28,
+                160
+              ]
+            ],
+            [
+              [
+                163,
+                25
+              ],
+              [
+                24,
+                164
+              ]
+            ],
+            [
+              [
+                165,
+                23
+              ],
+              [
+                26,
+                162
+              ]
+            ],
+            [
+              [
+                159,
+                29
+              ],
+              [
+                25,
+                164
+              ]
+            ],
+            [
+              [
+                160,
+                29
+              ],
+              [
+                32,
+                156
+              ]
+            ]
+          ],
+          "classes": [
+            -1,
+            1
+          ],
+          "class_labels": [
+            "Negatif",
+            "Positif"
+          ],
+          "k_used": 10,
+          "dist_before": {
+            "-1": 210,
+            "1": 119
+          },
+          "dist_after": {
+            "-1": 209,
+            "1": 209
+          },
+          "n_before": 329,
+          "n_after": 418,
+          "vocab_size": 419,
+          "report": {
+            "Negatif": {
+              "precision": 0.7376237623762376,
+              "recall": 0.7129186602870813,
+              "f1-score": 0.7250608272506083,
+              "support": 209.0
+            },
+            "Positif": {
+              "precision": 0.7222222222222222,
+              "recall": 0.7464114832535885,
+              "f1-score": 0.7341176470588235,
+              "support": 209.0
+            },
+            "accuracy": 0.7296650717703349,
+            "macro avg": {
+              "precision": 0.7299229922992299,
+              "recall": 0.7296650717703349,
+              "f1-score": 0.7295892371547159,
+              "support": 418.0
+            },
+            "weighted avg": {
+              "precision": 0.72992299229923,
+              "recall": 0.7296650717703349,
+              "f1-score": 0.7295892371547159,
+              "support": 418.0
+            }
+          },
+          "confusion_matrix": [
+            [
+              149,
+              60
+            ],
+            [
+              53,
+              156
+            ]
+          ],
+          "confusion_matrix_train": [
+            [
+              1630,
+              251
+            ],
+            [
+              279,
+              1602
+            ]
+          ]
+        }
+      }
+    },
+    "others": {
+      "skipped": true,
+      "reason": "data tidak memenuhi syarat"
+    }
+  }
+}

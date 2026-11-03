@@ -1,0 +1,14 @@
+labeled_data_ASBA_Prabowo.csv (dataset terlabel tanpa nama kolom)
+
+labeled_data_dengan_nama_kolom_ASBA_Prabowo.csv (dataset terlabel  dengan nama kolom)
+
+raw_data_ASBA_Prabowo.csv (dataset mentah kolom lengkap)
+
+raw_data_simple_ASBA_Prabowo.csv (dataset mentah kolom no,username,content)
+
+KamusNormalisasi_ASBA_Prabowo.csv (kamus normalisasi terdiri dari no, notnormal(kata slang), normal(kata baku))
+
+KamusWordListAspek_Aksesibilitas_ASBA_Prabowo.csv (kamus wordlist aspek aksesibilitas)
+KamusWordListAspek_Fitur_ASBA_Prabowo.csv (kamus wordlist aspek fitur)
+KamusWordListAspek_Gameplay_ASBA_Prabowo.csv (kamus wordlist aspek gameplay dan story)
+KamusWordListAspek_Grafis_ASBA_Prabowo.csv (kamus wordlist aspek grafis dan performa)
