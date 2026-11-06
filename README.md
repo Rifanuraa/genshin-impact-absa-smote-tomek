@@ -5,7 +5,7 @@ Analisis sentimen berbasis aspek (ABSA) pada review Genshin Impact dengan **Mult
 
 > Proyek ini berasal dari skripsi S1 saya. Repositori ini berisi kode eksperimen, rekap hasil, dan dashboard.
 
-![Dashboard halaman 1](images/dashboard_halaman1.png)
+![Dashboard halaman 1](images/dashboard_hasil_terbaik.png)
 
 ---
 
@@ -77,9 +77,9 @@ Dashboard terdiri dari dua halaman:
 | 1. Perbandingan metode balancing | Metode balancing mana yang terbaik per aspek? |
 | 2. Pengaruh jumlah data dan negasi | Apakah jumlah data dan konversi negasi memengaruhi F1? |
 
-![Dashboard halaman 2](images/dashboard_halaman2.png)
+![Dashboard halaman 2](images/dashboard_perbandingan_data_dan_negasi.png)
 
-File dashboard: [`dashboard/absa_dashboard.pbix`](dashboard/absa_dashboard.pbix) (buka dengan Power BI Desktop).
+File dashboard: [`dashboard/SMOTE_Tomek_result.pbix`](dashboard/SMOTE_Tomek_result.pbix) (buka dengan Power BI Desktop).
 
 ## Struktur repositori
 
